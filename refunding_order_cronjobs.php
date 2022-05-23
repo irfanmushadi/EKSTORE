@@ -3,7 +3,7 @@ date_default_timezone_set('Asia/Jakarta');
 $db['host'] = "localhost"; //host
 $db['user'] = "root"; //username database
 $db['pass'] = ""; //password database
-$db['name'] = "marketplace_pro_db"; //nama database
+$db['name'] = "tajalapak"; //nama database
 $koneksi = mysqli_connect($db['host'], $db['user'], $db['pass'], $db['name']);
 
 function rekening(){
