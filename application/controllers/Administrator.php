@@ -67,7 +67,7 @@ class Administrator extends CI_Controller {
                                        'id_session'=>$row['id_session']));
                     redirect($this->uri->segment(1).'/home');
                 }else{
-                    $data['title'] = 'Password Tidak sama!';
+                    $data['title'] = 'Password Tidak Sesuai!';
                     $this->load->view('administrator/view_reset',$data);
                 }
             }else{
@@ -86,7 +86,7 @@ class Administrator extends CI_Controller {
             $email = strip_tags($this->input->post('email'));
             $cekemail = $this->model_app->edit('users', array('email' => $email))->num_rows();
             if ($cekemail <= 0){
-                $data['title'] = 'Alamat email tidak ditemukan';
+                $data['title'] = 'Alamat email tidak ada lur!';
                 $this->load->view('administrator/view_login',$data);
             }else{
                 $iden = $this->model_app->edit('identitas', array('id_identitas' => 1))->row_array();
