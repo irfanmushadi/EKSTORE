@@ -94,13 +94,13 @@
                         <p>Dengan mendaftar, Berarti Anda telah menyetujui <a target='_BLANK' style='color:#000' href='<?php echo base_url()."halaman/detail/$row1[judul_seo]"; ?>'>Perjanjian Pengguna</a> dan <a target='_BLANK' style='color:#000' href='<?php echo base_url()."halaman/detail/$row2[judul_seo]"; ?>'>Kebijakan Privasi</a></p>
                         <div class="form-group submit">
                             <button type='submit' name='submit2' class="ps-btn ps-btn--fullwidth gray-btn custom-btn">Daftar</button>
-                            <?php 
+                            <!-- <?php 
                                 $ci = & get_instance();
                                 $ci->load->library('facebook');
                                 $ci->load->library('google');
                                 echo "<a href='".$ci->google->loginURL()."' class='ps-btn ps-btn--fullwidth red-btn custom-btn' style='margin: 4px 0px'>Google</a>
                                       <a href='".$ci->facebook->login_url()."' class='ps-btn ps-btn--fullwidth blue-btn custom-btn'>Facebook</a>";
-                            ?>
+                            ?> -->
                         </div><br>
                     </div>
                 </form>
