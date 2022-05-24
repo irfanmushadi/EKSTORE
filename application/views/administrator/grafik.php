@@ -30,7 +30,7 @@
 <div class="box box-success">
     <div class="box-header">
     <i class="fa fa-th-list"></i>
-    <h3 class="box-title">Grafik Kunjungan</h3>
+    <h3 class="box-title">Data Pendatang</h3>
         <div class="box-tools pull-right">
            <button class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
             <button class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove"><i class="fa fa-times"></i></button>
@@ -43,7 +43,7 @@
     <thead>
         <tr>
             <th></th>
-            <th>Jumlah Kunjungan</th>
+            <th>Jumlah Pendatang</th>
         </tr>
     </thead>
     <tbody>

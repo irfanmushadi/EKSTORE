@@ -42,7 +42,7 @@
                         <th>Nominal</th>
                         <th>Keterangan</th>
                         <th>Waktu</th>
-                        <th>Balance</th>
+                        <th>Saldo</th>
                       </tr>
                     </thead>
                     <tbody>

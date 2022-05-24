@@ -3,5 +3,9 @@
 	<title>RSS </title> 
 	<description></description>
 	<link></link> 
-	<language>id-id</language></channel>
+	<language>id-id</language><item>
+							<title>blablabla</title>
+							<link>https://localhost/ekstore/produk/detail/</link>
+							<description></description>
+						</item></channel>
   	</rss>

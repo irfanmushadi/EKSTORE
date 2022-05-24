@@ -8,7 +8,7 @@ if ($this->session->level==''){
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>WELCOME ADMINISTRATOR</title>
+    <title>Selamat datang admin Ekstore</title>
     <meta name="author" content="phpmu.com">
     <link rel="shortcut icon" href="<?php echo base_url(); ?>asset/images/<?php echo favicon(); ?>" />
     <!-- Tell the browser to be responsive to screen width -->
@@ -71,7 +71,7 @@ if ($this->session->level==''){
 
       <div class="content-wrapper">
         <section class="content-header">
-          <h1> Dashboard <small>Control panel </small> </h1>
+          <h1> Beranda <small>Control panel </small> </h1>
         </section>
 
         <section class="content">
@@ -88,7 +88,7 @@ if ($this->session->level==''){
           <div class="modal-content">
               <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                  <h5 class="modal-title" id="myModalLabel">Detail Data Donasi</h5>
+                  <h5 class="modal-title" id="myModalLabel"></h5>
               </div>
               <div class="modal-body">
                 <div class="content-body"></div>
