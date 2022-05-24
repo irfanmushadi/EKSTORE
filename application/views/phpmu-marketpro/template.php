@@ -503,7 +503,7 @@
                             ?>
                             <hr style='padding:15px 0px 5px 0px'>
                             <div class="info--register-bottom" style='margin-bottom:20px'>
-                                <center><span>Belum punya akun? </span> <a style='color:#000' href="<?php echo base_url(); ?>auth/login" class="btn-register" target="_parent">Daftar sekarang!</a></center>
+                                <center><span>Belum punya akun lur? </span> <a style='color:#000' href="<?php echo base_url(); ?>auth/login" class="btn-register" target="_parent">Daftar sekarang!</a></center>
                             </div>
                         </div>
                         <div class="col-md-6" style='padding:0px 40px'>
@@ -515,7 +515,7 @@
                                         <input class="form-control" name='a' style='height:40px' type="text" autofocus autocomplete='off' required>
                                     </div>
                                     <div class="form-group" style='margin-bottom: 1rem;'>
-                                        <label style='margin-bottom:5px' class="col-form-label">Password</label>
+                                        <label style='margin-bottom:5px' class="col-form-label">Kata sandi</label>
                                         <input class="form-control" name='b' style='height:40px' type="password" required>
                                     </div>
                                     <div class="form-group" style='margin-bottom: 1rem;'>
@@ -566,11 +566,11 @@
                             ?>
                             <hr style='padding:15px 0px 5px 0px'>
                             <div class="info--register-bottom" style='margin-bottom:20px'>
-                                <center><span>Belum punya akun? </span> <a style='color:#000' href="<?php echo base_url(); ?>auth/login" class="btn-register" target="_parent">Daftar sekarang!</a></center>
+                                <center><span>Belum punya akun lur? </span> <a style='color:#000' href="<?php echo base_url(); ?>auth/login" class="btn-register" target="_parent">Daftar sekarang!</a></center>
                             </div>
                         </div>
                         <div class="col-md-6" style='padding:0px 40px'>
-                            <h3>LUPA PASSWORD?</h3>
+                            <h3>Lupa Kata Sandi?</h3>
                             <form action="<?php echo base_url(); ?>auth/lupass" method="POST">
                                 <div class="ps-form__content">
                                     <div class="form-group" style='margin-bottom: 1.8rem;'>
