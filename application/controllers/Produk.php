@@ -1,14 +1,5 @@
 <?php
-/*
--- ---------------------------------------------------------------
--- TAJALAPAK MARKETPLACE PRO MULTI BUYER MULTI SELLER + SUPPORT RESELLER SYSTEM
--- CREATED BY : ROBBY PRIHANDAYA (0812-6777-1344)
--- COPYRIGHT  : Copyright (c) 2018 - 2021, PHPMU.COM. (https://phpmu.com/)
--- LICENSE    : Commercial Software, (Hanya untuk 1 domain)
--- CREATED ON : 2019-03-26
--- UPDATED ON : 2021-02-09
--- ---------------------------------------------------------------
-*/
+
 defined('BASEPATH') OR exit('No direct script access allowed');
 class Produk extends CI_Controller {
 	
@@ -477,7 +468,7 @@ class Produk extends CI_Controller {
 		foreach ($records->result_array() as $row) {
 			$select_prov .= "<option value='$row[province_id]'>$row[province_name]</option>";
 		}
-		/*$row = $this->db->query("SELECT api_mutasibank, api_rajaongkir FROM identitas where id_identitas='1'")->row_array();
+		$row = $this->db->query("SELECT api_mutasibank, api_rajaongkir FROM identitas where id_identitas='1'")->row_array();
         $curl = curl_init();
 
         curl_setopt_array($curl, array(
@@ -508,7 +499,7 @@ class Produk extends CI_Controller {
         $select_prov = '<option value=0>- Pilih Provinsi -</option>';
         for($i=0; $i < count($obj['rajaongkir']['results']); $i++){
              $select_prov .= "<option value='".$obj['rajaongkir']['results'][$i]['province_id']."'>".$obj['rajaongkir']['results'][$i]['province']."</option>";
-        }*/
+        }
         echo $select_prov;
     }
     

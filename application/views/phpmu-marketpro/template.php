@@ -82,6 +82,7 @@
     <script src="https://cdn.jsdelivr.net/npm/progressive-image.js/dist/progressive-image.js"></script>
     <script src="<?php echo base_url(); ?>asset/phpmu_scripts.js"></script>
     <script>
+    
         function copyToClipboard(element) {
 	      var $temp = $("<input>");
 	      $("body").append($temp);
@@ -166,7 +167,7 @@
             $(this).val(n.toLocaleString());
         });
     </script>
-
+    <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="365bcd5e-c0ac-4af6-90fc-3c97aec0bb65";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
     <script>
         $(document).ready(function() {
             // Select your input element.
