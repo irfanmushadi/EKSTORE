@@ -134,7 +134,7 @@ if ($disk['diskon']>=1){
 
                         <div class="ps-product__shopping d-none d-sm-block" style='margin-bottom:0rem; padding-bottom:10px'>
                             <figure class='d-inline'>
-                                <figcaption>Quantity</figcaption>
+                                <figcaption>Jumlah pembelian</figcaption>
                                 <div class="form-group--number">
                                     <!--<button class="up"><i class="fa fa-plus"></i></button>
                                     <button class="down"><i class="fa fa-minus"></i></button>-->
@@ -156,7 +156,7 @@ if ($disk['diskon']>=1){
                         Share via <div class="addthis_inline_share_toolbox"></div>
                         <div class="ps-product__specification"><a class="report" target='_BLANK' href="<?php echo "https://api.whatsapp.com/send?phone=".format_telpon($idn['no_telp'])."&amp;text=Hallo%20kak!,%20Saya%20Mau%20Melaporkan%20Produk%20ini%20:%20$record[nama_produk]..."; ?>">Laporkan Penyalahgunaan</a>
                             <!--<p><strong>SKU:</strong> SF1133569600-1</p>-->
-                            <p class="categories"><strong> Categories : </strong><a href="<?php echo base_url().'produk/kategori/'.$kat['kategori_seo']; ?>"><?php echo $kat['nama_kategori']; ?></a></p>
+                            <p class="categories"><strong> Kategori : </strong><a href="<?php echo base_url().'produk/kategori/'.$kat['kategori_seo']; ?>"><?php echo $kat['nama_kategori']; ?></a></p>
                             <?php if (trim($record['tag'])!=''){ echo "<p class='tags'><strong> Tags : </strong> $record[tag]</p>"; } ?>
                         </div>
                     </div>
@@ -169,7 +169,7 @@ if ($disk['diskon']>=1){
                         <li class="active"><a href="#tab-1">Deskripsi</a></li>
                         <li><a href="#tab-3">Penjual</a></li>
                         <li><a href="#tab-4">Ulasan (<?php echo rate_jumlah($record['id_produk']); ?>)</a></li>
-                        <li><a href="#tab-5">Tanya Jawab (<?php echo $komentar; ?>)</a></li>
+                        <li><a href="#tab-5">Diskusi (<?php echo $komentar; ?>)</a></li>
                     </ul>
                     <div class="ps-tabs">
                         <div class="ps-tab active" id="tab-1">
@@ -200,9 +200,9 @@ if ($disk['diskon']>=1){
                                 
                                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
                                     <form class="ps-form--review" action="<?php echo base_url()."produk/detail/".$this->uri->segment(3); ?>" method="POST">
-                                        <h4>Kirimkan Ulasan Produk.</h4>
+                                        <h4>Beri Ulasan lur!.</h4>
                                         <div class="form-group form-group__rating">
-                                            <label>Berikan Rating untuk Produk ini </label>
+                                            <label>Rating untuk produk ini </label>
                                             <style type="text/css">.fa-star{ color:orange; }</style>
                                             <div class='star-rating'>
                                                 <span class='fa divya fa-star-o' data-rating='1' style='font-size:20px; cursor:pointer'></span>
