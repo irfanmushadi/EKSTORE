@@ -679,7 +679,7 @@
                 <div class="ps-container">
                     <div class="header__left">
                         <div class="menu--product-categories">
-                            <div class="menu__toggle"><i class="icon-menu"></i><span> Kategori Produk</span></div>
+                            <div class="menu__toggle"><i class="icon-menu"></i><span> Category Product</span></div>
                             <div class="menu__content">
                                 <ul class="menu--dropdown">
                                     <?php
@@ -814,7 +814,7 @@
                             <div class="ps-block--header-hotline">
                                 <div class="ps-block__left"><i class="icon-telephone"></i></div>
                                 <div class="ps-block__right">
-                                    <p>Pusat Bantuan<strong><?php echo $idn['no_telp']; ?></strong></p>
+                                    <p>HELP CENTER<strong><?php echo $idn['no_telp']; ?></strong></p>
                                 </div>
                             </div>
                         </div>

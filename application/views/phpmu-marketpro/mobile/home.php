@@ -119,7 +119,7 @@
 
 <div class="ps-panel--sidebar" id="navigation-mobile">
     <div class="ps-panel__header">
-        <h3>Kategori Produk</h3>
+        <h3>Category Product</h3>
     </div>
     <div class="ps-panel__content">
         <ul class="menu--mobile">
