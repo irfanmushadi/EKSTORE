@@ -814,7 +814,7 @@
                             <div class="ps-block--header-hotline">
                                 <div class="ps-block__left"><i class="icon-telephone"></i></div>
                                 <div class="ps-block__right">
-                                    <p>Pusat Bantuan<strong><?php echo $idn['no_telp']; ?></strong></p>
+                                    <p>Help Center <strong><?php echo $idn['no_telp']; ?></strong></p>
                                 </div>
                             </div>
                         </div>
