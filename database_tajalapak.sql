@@ -127,7 +127,7 @@ INSERT INTO `banner` (`id_banner`, `id_kategori_banner`, `judul`, `keterangan`, 
 (19, 0, 'Layanan Hadiah', 'Mendukung layanan hadiah', 'https://phpmu.com', '', 'icon-gift', 'top', '2017-05-21'),
 (20, 0, 'Dukungan 1 x 24 jam', 'Dukungan khusus untuk anda', 'https://phpmu.com', '', 'icon-bubbles', 'top', '2017-05-21'),
 (21, 0, 'Pembayaran aman', 'Pembayaran aman 100%', 'https://phpmu.com', '', 'icon-credit-card', 'top', '2017-05-21'),
-(22, 0, '90 uang Kembali', 'Jika barang Bermasalah', 'https://phpmu.com', '', 'icon-sync', 'top', '2017-05-21'),
+(22, 0, '90% uang Kembali', 'Jika barang Bermasalah', 'https://phpmu.com', '', 'icon-sync', 'top', '2017-05-21'),
 (23, 0, 'Pengiriman gratis', 'Untuk pesanan min Rp 999.000', 'https://phpmu.com', '', 'icon-rocket', 'top', '2017-05-21'),
 (24, 1, 'Call us 24/7', 'Hubungi (0751) 461692\r\n<h3>0812 6777 13xx</h3> Jl. Angkasa Puri, Perundam, Padang\r\ncontact@tajalapak.com', 'https://phpmu.com', '', '', 'footer', '2020-02-07'),
 (25, 2, 'Tentang Tajalapak', '', 'https://phpmu.com', '', '', 'footer', '2020-02-07'),
@@ -452,7 +452,7 @@ CREATE TABLE `identitas` (
 --
 
 INSERT INTO `identitas` (`id_identitas`, `nama_website`, `pengirim_email`, `email`, `password`, `url`, `facebook`, `rekening`, `no_telp`, `meta_deskripsi`, `meta_keyword`, `favicon`, `maps`, `api_mutasibank`, `api_rajaongkir`, `free_reseller`, `flash_deal`, `info_atas`) VALUES
-(1, 'Tajalapak : Shooping From Home and Anytime', 'TAJALAPAK.COM', 'tajalapak.indonesia@gmail.com', 'xxxxxxxxxxxx', 'https://cnkponcol.com/tajalapak', 'https://www.facebook.com/robbyprihandaya, https://twitter.com/robbyprihandaya, https://plus.google.com/106633506064864167239, https://id.linkedin.com/', '3511887071', '0896-6777-1377', 'Menyajikan berita terbaru, tercepat, dan terpercaya seputar tunggul hitam.', 'Selamat datang di CMS Swarakalibata, adalah penyempurnaan dan perbaikan.', 'tajalapak.png', '||bzFj22s4iof4VfkGTqRXhmLqLcS2UevnCAElgis0RkRsWtGhwzZvo4lVEnxxxxx', '', '66ff6e50774f0edd8e4e04e3c969ee57', 12, '2021-02-12', '<strong>Pengiriman gratis</strong>\r\nUntuk pesanan min Rp 999.000');
+(1, 'Ekstore : Shop With The Best Experients', 'EKSTORE.COM', 'ekstore.indonesia@gmail.com', 'xxxxxxxxxxxx', 'https://cnkponcol.com/tajalapak', 'https://www.facebook.com/robbyprihandaya, https://twitter.com/robbyprihandaya, https://plus.google.com/106633506064864167239, https://id.linkedin.com/', '3511887071', '0896-6777-1377', 'Menyajikan produk terbaru, terbaik, dan terpercaya di indonesia', 'Selamat datang di CMS Swarakalibata, adalah penyempurnaan dan perbaikan.', 'logo-eks.png', '||bzFj22s4iof4VfkGTqRXhmLqLcS2UevnCAElgis0RkRsWtGhwzZvo4lVEnxxxxx', '', '66ff6e50774f0edd8e4e04e3c969ee57', 12, '2021-02-12', '<strong>Pengiriman gratis</strong>\r\nUntuk pesanan min Rp 999.000');
 
 -- --------------------------------------------------------
 
@@ -500,7 +500,7 @@ INSERT INTO `iklantengah` (`id_iklantengah`, `judul`, `username`, `url`, `gambar
 (2, 'Home - Iklan Home No 2', 'admin', 'http://phpmu.com', '2.jpg', '2020-01-30'),
 (1, 'Home - Iklan Home No 1', 'admin', 'http://phpmu.com', '1.jpg', '2020-01-30'),
 (34, 'Footer - Iklan No 1', 'admin', 'https://members.phpmu.com', 'ad-1.jpg', '2020-01-30'),
-(35, 'Footer - Iklan No 2', 'admin', 'https://phpmu.com', 'ad-2.jpg', '2020-01-30');
+(35, 'Footer - Iklan No 2', 'admin', 'https://phpmu.com', 'ad-22.png', '2020-01-30');
 
 -- --------------------------------------------------------
 
@@ -758,7 +758,7 @@ CREATE TABLE `logo` (
 --
 
 INSERT INTO `logo` (`id_logo`, `gambar`) VALUES
-(15, 'tajalapak-black.png');
+(15, 'logo-eks.png');
 
 -- --------------------------------------------------------
 
@@ -887,8 +887,8 @@ CREATE TABLE `pasangiklan` (
 --
 
 INSERT INTO `pasangiklan` (`id_pasangiklan`, `judul`, `username`, `url`, `gambar`, `tgl_posting`) VALUES
-(1, 'Iklan Sidebar Kanan atas 2', 'admin', 'http://phpmu.com', 'home-2-2.jpg', '2021-02-01'),
-(2, 'Iklan Sidebar Kanan atas 1', 'admin', 'http://phpmu.com', 'home-2-1.jpg', '2021-02-01');
+(1, 'Iklan Sidebar Kanan atas 2', 'admin', 'http://phpmu.com', 'iklan-atas.png', '2021-02-01'),
+(2, 'Iklan Sidebar Kanan atas 1', 'admin', 'http://phpmu.com', 'iklan-bawah.png', '2021-02-01');
 
 -- --------------------------------------------------------
 
@@ -1154,14 +1154,13 @@ CREATE TABLE `rb_kategori_produk` (
 --
 
 INSERT INTO `rb_kategori_produk` (`id_kategori_produk`, `nama_kategori`, `kategori_seo`, `gambar`, `icon_kode`, `icon_image`, `urutan`) VALUES
-(1, 'Perhiasan dan Aksesoris', 'perhiasan-dan-aksesoris', 'kat1.jpg', 'icon-diamond', NULL, 1),
-(2, 'Fashion & Busana Wanita', 'fashion--busana-wanita', 'fashion_wanita.jpg', 'icon-heart', NULL, 2),
-(6, 'Fashion & Busana Pria', 'fashion--busana-pria', 'fashion.jpg', NULL, 'Jewelry_Watch.jpg', 3),
-(9, 'Alat Musik & Pro Audio', 'alat-musik--pro-audio', 'alat_musik.jpg', 'icon-music-note', NULL, 4),
-(10, 'Tas, Koper & Perjalanan', 'tas-koper--perjalanan', 'perjalanan.jpg', 'icon-briefcase', NULL, 5),
-(12, 'Perhiasan dan Jam Tangan', 'perhiasan-dan-jam-tangan', 'Jewelry_Watch.jpg', 'icon-gift', NULL, 6),
-(13, 'Olahraga dan Luar Rumah', 'olahraga-dan-luar-rumah', 'olahraga3.jpg', 'icon-exit', '', 7),
-(14, 'Taman dan Alat Dapur', 'taman-dan-alat-dapur', 'dapur1.jpg', 'icon-store', NULL, 8);
+(1, 'Budaya & Kreatif', 'Budaya & Kreatif', 'kreatif.png', 'icon-gift', NULL, 1),
+(2, 'Perawatan & Kecantikan', 'Perawatan & Kecantikan', 'kosmetik.png', 'icon-heart', NULL, 2),
+(6, 'Makanan & Minuman', 'Makanan & Minuman', 'makanan.png', NULL, 'makanan11.png', 3),
+(9, 'Elektronik', 'Elektronik', 'alat_musik.jpg', 'icon-music-note', NULL, 4),
+(12, 'Perikanan & Sejenisnya', 'perikanan & Sejenisnya', 'perikanan.png', 'perikanan22.png', NULL, 6),
+(13, 'Pertanian & Rempah', 'Pertanian & Rempah', 'rempah1.png', 'rempah33.png', '', 7),
+(14, 'Kebutuhan Rumah Tangga', 'Kebutuhan Rumah Tangga', 'rumah.png', 'phicon-store', NULL, 8);
 
 -- --------------------------------------------------------
 
@@ -1183,29 +1182,29 @@ CREATE TABLE `rb_kategori_produk_sub` (
 --
 
 INSERT INTO `rb_kategori_produk_sub` (`id_kategori_produk_sub`, `id_kategori_produk`, `nama_kategori_sub`, `kategori_seo_sub`, `icon_kode`, `icon_image`) VALUES
-(1, 2, 'Kiyora Sedang', 'kiyora-sedang', NULL, NULL),
-(2, 2, 'Kiyora Dalam', 'kiyora-dalam', NULL, NULL),
-(3, 1, 'Kalung', 'kalung', '', NULL),
-(4, 1, 'Jam tangan', 'jam-tangan', '', NULL),
-(6, 1, 'Cincin', 'cincin', '', NULL),
-(7, 14, 'Cookware', 'cookware', NULL, NULL),
-(8, 14, 'Decoration', 'decoration', NULL, NULL),
-(9, 14, 'Furniture', 'furniture', NULL, NULL),
-(10, 14, 'Garden Tools', 'garden-tools', NULL, NULL),
-(11, 13, 'Freezer Burn', 'freezer-burn', NULL, NULL),
-(12, 13, 'Frigde Cooler', 'frigde-cooler', NULL, NULL),
-(13, 13, 'Wine Cabinets', 'wine-cabinets', NULL, NULL),
-(14, 6, 'Accessories', 'accessories', NULL, NULL),
-(15, 6, 'Kid\'s Fashion', 'kids-fashion', NULL, NULL),
-(16, 6, 'Shoes', 'shoes', NULL, NULL),
-(17, 10, 'Car Electronics', 'car-electronics', NULL, NULL),
-(18, 10, 'Office Electronics', 'office-electronics', NULL, NULL),
-(19, 12, 'Emas Putih', 'emas-putih', NULL, NULL),
-(20, 12, 'Cincin Kawin', 'cincin-kawin', NULL, NULL),
-(21, 9, 'Gitar', 'gitar', NULL, NULL),
-(22, 9, 'Piano', 'piano', NULL, NULL),
-(23, 9, 'Talempong', 'talempong', NULL, NULL),
-(24, 1, 'sdasd', 'sdasd', '', NULL);
+(1, 2, 'Alat Kecantikan', 'Alat Kecantikan', NULL, NULL),
+(2, 2, 'Perawatan Tubuh', 'Perawatan Tubuh', NULL, NULL),
+(3, 1, 'Fashion', 'Fashion', '', NULL),
+(4, 1, 'Dekorasi Ruangan', 'Dekorasi Ruangan', '', NULL),
+(6, 1, 'Rotan', 'Rotan', '', NULL),
+(7, 14, 'Biji-Bijian', 'Biji-Bijian', NULL, NULL),
+(8, 14, 'Buah-Buahan', 'Buah-Buahan', NULL, NULL),
+(9, 14, 'Sayuran', 'Sayuran', NULL, NULL),
+(10, 14, 'Pertanian & Rempah Lainnya', 'Pertanian & Rempah Lainnya', NULL, NULL),
+(11, 2, 'Kosmetik & Perawatan Wajah', 'Kosmetik & Perawatan Wajah', NULL, NULL),
+(12, 2, 'Perawatan & Kecantikan Lainnya', 'Perawatan & Kecantikan Lainnya', NULL, NULL),
+(13, 12, 'Ikan Hias', 'Ikan Hias', NULL, NULL),
+(14, 6, 'Halal', 'Halal', NULL, NULL),
+(15, 6, 'Herbal', 'Herbal', NULL, NULL),
+(16, 6, 'Bahan Pokok', 'Bahan Pokok', NULL, NULL),
+(17, 12, 'Pakan Ikan', 'Pakan Ikan', NULL, NULL),
+(18, 12, 'Perikanan Lainnya', 'Perikanan Lainnya', NULL, NULL),
+(19, 12, 'Ikan Air Laut', 'Ikan Air Laut', NULL, NULL),
+(20, 12, 'Ikan Air Tawar', 'Ikan Air Tawar', NULL, NULL),
+(21, 9, 'Peralatan Listrik Kecil', 'Peralatan Listrik Kecil', NULL, NULL),
+(22, 9, 'Peralatan Listrik Besar', 'Peralatan Listrik Besar', NULL, NULL),
+(23, 9, 'Elektronik Lainnya', 'Elektronik Lainnya', NULL, NULL),
+(24, 1, 'Budaya & Kreatif Lainnya', 'Budaya & Kreatif Lainnya', '', NULL);
 
 -- --------------------------------------------------------
 
@@ -3034,8 +3033,8 @@ CREATE TABLE `slide` (
 --
 
 INSERT INTO `slide` (`id_slide`, `keterangan`, `gambar`, `waktu`) VALUES
-(1, 'Images Slider Produk 1', 'slider1.png', '2016-05-13 08:09:18'),
-(2, 'Images Slider Produk 2', 'slider2.png', '2016-05-13 08:10:18');
+(1, 'Images Slider Produk 1', 'slide2.png', '2016-05-13 08:09:18'),
+(2, 'Images Slider Produk 2', 'slide1.png', '2016-05-13 08:10:18');
 
 -- --------------------------------------------------------
 
