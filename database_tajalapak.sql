@@ -359,7 +359,26 @@ CREATE TABLE `halamanstatis` (
 
 INSERT INTO `halamanstatis` (`id_halaman`, `judul`, `judul_seo`, `isi_halaman`, `tgl_posting`, `gambar`, `username`, `dibaca`, `jam`, `hari`) VALUES
 (46, 'Tentang Kami Ekstore', 'tentang-kami-Ekstore', '<p>Ekstore merupakan destinasi belanja dan berjualan online berskala internasional yang aman. Dimana setiap produk dapat diekspor ke berbagai Negara, dan selalu mementingkan kepuasan pelanggan.</p>\r\n\r\n<p> Ekstore memiliki beragam kategori dari Kecantikan, Budaya, Halal, Rempah, Perikanan, Pertanian, Pangan, Kreatif, Otomotif, Elektronik, makanan dan miuman serta Kebutuhan Rumah Tangga.</p>\r\n\r\n<p> Selain itu, sekarang memang orang-orang dapat lebih mudah untuk melakukan transaksi jual beli melalui online karena leih mudah dan praktik.  Para penjual tidak akan membutuhkn penyewaan tempat untuk membuka lapa penjualan mereka, dan pastinya juga dapat menghemat biaya bisnis para penjual.Ekstore ini diluncurkan sebagai aplikasi marketplace penjualan ekspor  bagi sekolah ekspor. Yang nantinya pasti akan terus berkembang, mulai dari fitur-fitur maupun kategori produk yang akan dijual nantinya.
-(48, 'Cara Belanja Disini', 'cara-belanja-disini', '<p>Tajalapak.com merupakan portal online berita dan hiburan yang berfokus pada pembaca Indonesia baik yang berada di tanah air maupun yang tinggal di luar negeri. Berita Tajalapak.com diupdate selama 24 jam dan mendapatkan kunjungan lebih dari 190 juta pageviews setiap bulannya (Sumber: Google Analytics).</p>\r\n\r\n<p>Tajalapak.com memiliki beragam konten dari berita umum, politik, peristiwa, internasional, ekonomi, lifestyle, selebriti, sports, bola, auto, teknologi, dan lainya. Tajalapak juga merupakan salah satu portal pertama yang memberikan inovasi konten video dan mobile (handphone). Para pembaca kami adalah profesional, karyawan kantor, pengusaha, politisi, pelajar, dan ibu rumah tangga.</p>\r\n\r\n<p>Tajalapak.com memiliki beragam konten dari berita umum, politik, peristiwa, internasional, ekonomi, lifestyle, selebriti, sports, bola, auto, teknologi, dan lainya. Tajalapak juga merupakan salah satu portal pertama yang memberikan inovasi konten video dan mobile (handphone). Para pembaca kami adalah profesional, karyawan kantor, pengusaha, politisi, pelajar, dan ibu rumah tangga.</p>\r\n', '2014-04-07', '', 'admin', 93, '13:32:28', 'Senin'),
+(48, 'Cara Belanja Disini', 'cara-belanja-disini', '<p>Cara belanja di ekstore ini sama saja seperti dibelanja pada marketplace lainnya seperti shope, lazada dan lainnya  hal yang pertama dilakukan adalah tentu saja melakukan pendaftaran, 
+
+dengan memasukkan 
+
+1. nama pengguna
+
+2. email
+
+3. password
+
+
+
+setelah itu ketika sudah masuk, untuk memudahkan menemukan produk yang ingin dibeli, bisa mengetikkan nama produk yang ingin dibeli, bisa mengetikkan nama produk pada kolom pencarian
+
+kemudian pilih opsi variasi pilihan produk
+pilih beli sekarang
+pilih opsi pengiriman sesuai dengan yang diinginkan
+gunakan voucher jika ada
+pilih metode pembayaran sesuai dengan yng diinginkan
+pilih buat pesanan.
 (52, 'Star Seller 1 Bulan', 'star-seller-1-bulan', '<p>Keterangan untuk paket&nbsp;Star Seller 1 Bulan</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n', '2020-02-23', '', 'admin', 4, '06:28:09', 'Minggu'),
 (53, 'Star Seller 3 Bulan', 'star-seller-3-bulan', '<p>Keterangan untuk paket&nbsp;Star Seller 3 Bulan</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n', '2020-02-23', '', 'admin', 0, '06:28:22', 'Minggu'),
 (54, 'Star Seller 6 Bulan', 'star-seller-6-bulan', '<p>Keterangan untuk paket&nbsp;Star Seller 6 Bulan</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n', '2020-02-23', '', 'admin', 1, '06:28:32', 'Minggu'),
