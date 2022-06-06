@@ -61,7 +61,7 @@
                 <div class="ps-tab active" id="register">
                 <form action="<?php echo base_url(); ?>auth/register" class='auth' method="POST">
                     <div class="ps-form__content">
-                        <h5><center>Ayo Gabung dan Daftar Sekarang juga!</center></h5>
+                        <h5><center>Ayo Gabung dan Daftar sekarang juga!</center></h5>
                         <div class="form-group" style='margin-bottom:10px'>
                             <input class="form-control form-auth" name='username' value='<?php if (isset($first_name)){ echo strtolower($first_name); } ?><?php if (isset($last_name)){ echo strtolower($last_name); } ?>' type="text" placeholder="Username" onkeyup="nospaces(this)" autocomplete='off' autofocus required>
                         </div>
