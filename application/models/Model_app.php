@@ -1,14 +1,5 @@
 <?php 
-/*
--- ---------------------------------------------------------------
--- MARKETPLACE MULTI BUYER MULTI SELLER + SUPPORT RESELLER SYSTEM
--- CREATED BY : ROBBY PRIHANDAYA
--- COPYRIGHT  : Copyright (c) 2018 - 2019, PHPMU.COM. (https://phpmu.com/)
--- LICENSE    : http://opensource.org/licenses/MIT  MIT License
--- CREATED ON : 2019-03-26
--- UPDATED ON : 2019-03-27
--- ---------------------------------------------------------------
-*/
+
 class Model_app extends CI_model{
     public function view($table){
         return $this->db->get($table);
