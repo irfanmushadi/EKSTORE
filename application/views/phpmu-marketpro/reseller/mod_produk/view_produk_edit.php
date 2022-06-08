@@ -65,22 +65,7 @@
                   </div>
                 </div>
 
-                <div class='form-group row' style='margin-bottom:5px'>
-                  <label class='col-sm-2 col-form-label' style='margin-bottom:1px'>Sub-Kategori</b></label>
-                    <div class='col-sm-10'>
-                    <select name='aa' class='form-control form-mini' id='sub_kategori_produk'>
-                      <option value='' selected>- Pilih Sub Kategori Produk -</option>";
-                      $sub_kategori_produk = $this->db->query("SELECT * FROM rb_kategori_produk_sub");
-                      foreach ($sub_kategori_produk->result_array() as $row){
-                        if ($rows['id_kategori_produk_sub']==$row['id_kategori_produk_sub']){
-                          echo "<option value='$row[id_kategori_produk_sub]' selected>$row[nama_kategori_sub]</option>";
-                        }else{
-                          echo "<option value='$row[id_kategori_produk_sub]'>$row[nama_kategori_sub]</option>";
-                        }
-                      }
-                echo "</select>
-                </div>
-              </div>
+           
               <div class='form-group row' style='margin-bottom:5px'>
               <label class='col-sm-2 col-form-label' style='margin-bottom:1px'>Nama Produk</b></label>
                 <div class='col-sm-10'>

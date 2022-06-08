@@ -55,14 +55,7 @@
                   </div>
               </div>
 
-              <div class='form-group row' style='margin-bottom:5px'>
-                <label class='col-sm-2 col-form-label' style='margin-bottom:1px'>Sub-Kategori</b></label>
-                  <div class='col-sm-10'>
-                    <select name='aa' class='form-control form-mini' id='sub_kategori_produk'>
-                    <option value='' selected>- Pilih Sub Kategori Produk -</option>
-                    </select>
-                  </div>
-              </div>
+              
 
               <div class='form-group row' style='margin-bottom:5px'>
               <label class='col-sm-2 col-form-label' style='margin-bottom:1px'>Nama Produk</b></label>
