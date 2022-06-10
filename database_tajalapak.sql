@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.4
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 28, 2021 at 02:18 PM
--- Server version: 10.4.17-MariaDB
--- PHP Version: 7.4.14
+-- Generation Time: Jun 09, 2022 at 11:49 AM
+-- Server version: 10.4.21-MariaDB
+-- PHP Version: 7.3.31
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -127,10 +127,9 @@ INSERT INTO `banner` (`id_banner`, `id_kategori_banner`, `judul`, `keterangan`, 
 (19, 0, 'Layanan Hadiah', 'Mendukung layanan hadiah', 'https://phpmu.com', '', 'icon-gift', 'top', '2017-05-21'),
 (20, 0, 'Dukungan 1 x 24 jam', 'Dukungan khusus untuk anda', 'https://phpmu.com', '', 'icon-bubbles', 'top', '2017-05-21'),
 (21, 0, 'Pembayaran aman', 'Pembayaran aman 100%', 'https://phpmu.com', '', 'icon-credit-card', 'top', '2017-05-21'),
-(22, 0, '90% uang Kembali', 'Jika barang Bermasalah', 'https://phpmu.com', '', 'icon-sync', 'top', '2017-05-21'),
+(22, 0, '90 uang Kembali', 'Jika barang Bermasalah', 'https://phpmu.com', '', 'icon-sync', 'top', '2017-05-21'),
 (23, 0, 'Pengiriman gratis', 'Untuk pesanan min Rp 999.000', 'https://phpmu.com', '', 'icon-rocket', 'top', '2017-05-21'),
-(24, 1, 'Call us 24/7', 'Hubungi (0751) 461692\r\n<h3>087712468xxgitg</h3> Jl. Gatot Subroto 94, Jakarta 12780 dan
-Plaza De Espana Jalan Kalimantan 27 Lippo Village, Tangerang 15139\r\ncontact@ekstore.com', 'https://phpmu.com', '', '', 'footer', '2020-02-07'),
+(24, 1, 'Call us 24/7', 'Hubungi (0751) 461692\r\n<h3>0812 6777 13xx</h3> Jl. Angkasa Puri, Perundam, Padang\r\ncontact@tajalapak.com', 'https://phpmu.com', '', '', 'footer', '2020-02-07'),
 (25, 2, 'Tentang Tajalapak', '', 'https://phpmu.com', '', '', 'footer', '2020-02-07'),
 (26, 2, 'Aturan Penggunaan', '', 'https://phpmu.com', '', '', 'footer', '2020-02-07'),
 (27, 2, 'Kebijakan Privasi', '', 'https://phpmu.com', '', '', 'footer', '2020-02-07'),
@@ -358,27 +357,8 @@ CREATE TABLE `halamanstatis` (
 --
 
 INSERT INTO `halamanstatis` (`id_halaman`, `judul`, `judul_seo`, `isi_halaman`, `tgl_posting`, `gambar`, `username`, `dibaca`, `jam`, `hari`) VALUES
-(46, 'Tentang Kami Ekstore', 'tentang-kami-Ekstore', '<p>Ekstore merupakan destinasi belanja dan berjualan online berskala internasional yang aman. Dimana setiap produk dapat diekspor ke berbagai Negara, dan selalu mementingkan kepuasan pelanggan.</p>\r\n\r\n<p> Ekstore memiliki beragam kategori dari Kecantikan, Budaya, Halal, Rempah, Perikanan, Pertanian, Pangan, Kreatif, Otomotif, Elektronik, makanan dan miuman serta Kebutuhan Rumah Tangga.</p>\r\n\r\n<p> Selain itu, sekarang memang orang-orang dapat lebih mudah untuk melakukan transaksi jual beli melalui online karena leih mudah dan praktik.  Para penjual tidak akan membutuhkn penyewaan tempat untuk membuka lapa penjualan mereka, dan pastinya juga dapat menghemat biaya bisnis para penjual.Ekstore ini diluncurkan sebagai aplikasi marketplace penjualan ekspor  bagi sekolah ekspor. Yang nantinya pasti akan terus berkembang, mulai dari fitur-fitur maupun kategori produk yang akan dijual nantinya.
-(48, 'Cara Belanja Disini', 'cara-belanja-disini', '<p>Cara belanja di ekstore ini sama saja seperti dibelanja pada marketplace lainnya seperti shope, lazada dan lainnya  hal yang pertama dilakukan adalah tentu saja melakukan pendaftaran, 
-
-dengan memasukkan 
-
-1. nama pengguna
-
-2. email
-
-3. password
-
-
-
-setelah itu ketika sudah masuk, untuk memudahkan menemukan produk yang ingin dibeli, bisa mengetikkan nama produk yang ingin dibeli, bisa mengetikkan nama produk pada kolom pencarian
-
-kemudian pilih opsi variasi pilihan produk
-pilih beli sekarang
-pilih opsi pengiriman sesuai dengan yang diinginkan
-gunakan voucher jika ada
-pilih metode pembayaran sesuai dengan yng diinginkan
-pilih buat pesanan.
+(46, 'Tentang Kami Tajalapak', 'tentang-kami-tajalapak', '<p>Tajalapak.com merupakan portal online berita dan hiburan yang berfokus pada pembaca Indonesia baik yang berada di tanah air maupun yang tinggal di luar negeri. Berita Tajalapak.com diupdate selama 24 jam dan mendapatkan kunjungan lebih dari 190 juta pageviews setiap bulannya (Sumber: Google Analytics).</p>\r\n\r\n<p>Tajalapak.com memiliki beragam konten dari berita umum, politik, peristiwa, internasional, ekonomi, lifestyle, selebriti, sports, bola, auto, teknologi, dan lainya. Tajalapak juga merupakan salah satu portal pertama yang memberikan inovasi konten video dan mobile (handphone). Para pembaca kami adalah profesional, karyawan kantor, pengusaha, politisi, pelajar, dan ibu rumah tangga.</p>\r\n\r\n<p>Konten berita Tajalapak.com ditulis secara tajam, singkat, padat, dan dinamis sebagai respons terhadap tuntutan masyarakat yang semakin efisien dalam membaca berita. Selain itu konsep portal berita online juga semakin menjadi pilihan masyarakat karena sifatnya yang up-to-date dan melaporkan kejadian peristiwa secara instant pada saat itu juga sehingga masyarakat tidak perlu menunggu sampai esok harinya untuk membaca berita yang terjadi.</p>\r\n\r\n<p>Tajalapak.com resmi diluncurkan (Commercial Launch) sebagai portal berita pada 1 Maret 2007) dan merupakan cikal-bakal bisnis online pertama milik PT Php MU Tbk, sebuah perusahan media terintegrasi yang terbesar di Indonesia dan di Asia Tenggara. PHPMU juga memiliki dan mengelola bisnis media TV (RCTI, MNC TV, Global TV), media cetak (Koran Seputar Indonesia, Tabloid Genie, Tabloid Mom &amp; Kiddie, majalah HighEnd, dan Trust), media radio (SINDO, Trijaya FM, ARH Global, Radio Dangdut Indonesia, V Radio), serta sejumlah bisnis media lainnya (mobile VAS, Manajemen artis, rumah produksi film, agen iklan, dll).</p>\r\n\r\n<p>Sampai dengan bulan Oktober 2008, Tajalapak.com mendapatkan peringkat ke 24 dari Top 100 website terpopuler di Indonesia (Sumber: Alexa.com), peringkat ini terus naik yang disebabkan semakin banyak pengunjung situs yang mengakses Tajalapak.com setiap harinya. Selain itu, jumlah pengguna internet yang mencapai 25 juta (Sumber: data APJII per 2005) diperkirakan untuk terus tumbuh dengan signifikan dalam beberapa tahun ke depan.</p>\r\n', '2014-04-07', '', 'admin', 93, '13:10:57', 'Senin'),
+(48, 'Cara Belanja Disini', 'cara-belanja-disini', '<p>Tajalapak.com merupakan portal online berita dan hiburan yang berfokus pada pembaca Indonesia baik yang berada di tanah air maupun yang tinggal di luar negeri. Berita Tajalapak.com diupdate selama 24 jam dan mendapatkan kunjungan lebih dari 190 juta pageviews setiap bulannya (Sumber: Google Analytics).</p>\r\n\r\n<p>Tajalapak.com memiliki beragam konten dari berita umum, politik, peristiwa, internasional, ekonomi, lifestyle, selebriti, sports, bola, auto, teknologi, dan lainya. Tajalapak juga merupakan salah satu portal pertama yang memberikan inovasi konten video dan mobile (handphone). Para pembaca kami adalah profesional, karyawan kantor, pengusaha, politisi, pelajar, dan ibu rumah tangga.</p>\r\n\r\n<p>Tajalapak.com memiliki beragam konten dari berita umum, politik, peristiwa, internasional, ekonomi, lifestyle, selebriti, sports, bola, auto, teknologi, dan lainya. Tajalapak juga merupakan salah satu portal pertama yang memberikan inovasi konten video dan mobile (handphone). Para pembaca kami adalah profesional, karyawan kantor, pengusaha, politisi, pelajar, dan ibu rumah tangga.</p>\r\n', '2014-04-07', '', 'admin', 93, '13:32:28', 'Senin'),
 (52, 'Star Seller 1 Bulan', 'star-seller-1-bulan', '<p>Keterangan untuk paket&nbsp;Star Seller 1 Bulan</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n', '2020-02-23', '', 'admin', 4, '06:28:09', 'Minggu'),
 (53, 'Star Seller 3 Bulan', 'star-seller-3-bulan', '<p>Keterangan untuk paket&nbsp;Star Seller 3 Bulan</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n', '2020-02-23', '', 'admin', 0, '06:28:22', 'Minggu'),
 (54, 'Star Seller 6 Bulan', 'star-seller-6-bulan', '<p>Keterangan untuk paket&nbsp;Star Seller 6 Bulan</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n', '2020-02-23', '', 'admin', 1, '06:28:32', 'Minggu'),
@@ -472,7 +452,7 @@ CREATE TABLE `identitas` (
 --
 
 INSERT INTO `identitas` (`id_identitas`, `nama_website`, `pengirim_email`, `email`, `password`, `url`, `facebook`, `rekening`, `no_telp`, `meta_deskripsi`, `meta_keyword`, `favicon`, `maps`, `api_mutasibank`, `api_rajaongkir`, `free_reseller`, `flash_deal`, `info_atas`) VALUES
-(1, 'Ekstore : Shop With The Best Experients', 'EKSTORE.COM', 'ekstore.indonesia@gmail.com', 'xxxxxxxxxxxx', 'https://cnkponcol.com/tajalapak', 'https://www.facebook.com/robbyprihandaya, https://twitter.com/robbyprihandaya, https://plus.google.com/106633506064864167239, https://id.linkedin.com/', '3511887071', '0896-6777-1377', 'Menyajikan produk terbaru, terbaik, dan terpercaya di indonesia', 'Selamat datang di CMS Swarakalibata, adalah penyempurnaan dan perbaikan.', 'logo-eks.png', '||bzFj22s4iof4VfkGTqRXhmLqLcS2UevnCAElgis0RkRsWtGhwzZvo4lVEnxxxxx', '', '66ff6e50774f0edd8e4e04e3c969ee57', 12, '2021-02-12', '<strong>Pengiriman gratis</strong>\r\nUntuk pesanan min Rp 999.000');
+(1, 'Ekstore : Belanja produk lokal kualitas global', 'EKSTORE.COM', 'ekstore.indonesia@gmail.com', 'xxxxxxxxxxxx', 'https://cnkponcol.com/tajalapak', 'https://www.facebook.com/robbyprihandaya, https://twitter.com/robbyprihandaya, https://plus.google.com/106633506064864167239, https://id.linkedin.com/', '3511887071', '0896-6777-1377', 'Menyajikan produk berkualitas, terbaru, dan terpercaya di indonesia.', 'Selamat datang di CMS Swarakalibata, adalah penyempurnaan dan perbaikan.', 'tajalapak.png', '||bzFj22s4iof4VfkGTqRXhmLqLcS2UevnCAElgis0RkRsWtGhwzZvo4lVEnxxxxx', '', '66ff6e50774f0edd8e4e04e3c969ee57', 12, '2021-02-12', '<strong>Pengiriman gratis</strong>\r\nUntuk pesanan min Rp 999.000');
 
 -- --------------------------------------------------------
 
@@ -520,7 +500,7 @@ INSERT INTO `iklantengah` (`id_iklantengah`, `judul`, `username`, `url`, `gambar
 (2, 'Home - Iklan Home No 2', 'admin', 'http://phpmu.com', '2.jpg', '2020-01-30'),
 (1, 'Home - Iklan Home No 1', 'admin', 'http://phpmu.com', '1.jpg', '2020-01-30'),
 (34, 'Footer - Iklan No 1', 'admin', 'https://members.phpmu.com', 'ad-1.jpg', '2020-01-30'),
-(35, 'Footer - Iklan No 2', 'admin', 'https://phpmu.com', 'ad-22.png', '2020-01-30');
+(35, 'Footer - Iklan No 2', 'admin', 'https://phpmu.com', 'ad-2.jpg', '2020-01-30');
 
 -- --------------------------------------------------------
 
@@ -907,8 +887,8 @@ CREATE TABLE `pasangiklan` (
 --
 
 INSERT INTO `pasangiklan` (`id_pasangiklan`, `judul`, `username`, `url`, `gambar`, `tgl_posting`) VALUES
-(1, 'Iklan Sidebar Kanan atas 2', 'admin', 'http://phpmu.com', 'iklan-atas.png', '2021-02-01'),
-(2, 'Iklan Sidebar Kanan atas 1', 'admin', 'http://phpmu.com', 'iklan-bawah.png', '2021-02-01');
+(1, 'Iklan Sidebar Kanan atas 2', 'admin', 'http://phpmu.com', 'home-2-2.jpg', '2021-02-01'),
+(2, 'Iklan Sidebar Kanan atas 1', 'admin', 'http://phpmu.com', 'home-2-1.jpg', '2021-02-01');
 
 -- --------------------------------------------------------
 
@@ -1174,13 +1154,14 @@ CREATE TABLE `rb_kategori_produk` (
 --
 
 INSERT INTO `rb_kategori_produk` (`id_kategori_produk`, `nama_kategori`, `kategori_seo`, `gambar`, `icon_kode`, `icon_image`, `urutan`) VALUES
-(1, 'Budaya & Kreatif', 'Budaya & Kreatif', 'kreatif.png', 'icon-gift', NULL, 1),
-(2, 'Perawatan & Kecantikan', 'Perawatan & Kecantikan', 'kosmetik.png', 'icon-heart', NULL, 2),
-(6, 'Makanan & Minuman', 'Makanan & Minuman', 'makanan.png', NULL, 'makanan11.png', 3),
-(9, 'Elektronik', 'Elektronik', 'alat_musik.jpg', 'icon-music-note', NULL, 4),
-(12, 'Perikanan & Sejenisnya', 'perikanan & Sejenisnya', 'perikanan.png', 'perikanan22.png', NULL, 6),
-(13, 'Pertanian & Rempah', 'Pertanian & Rempah', 'rempah1.png', 'rempah33.png', '', 7),
-(14, 'Kebutuhan Rumah Tangga', 'Kebutuhan Rumah Tangga', 'rumah.png', 'phicon-store', NULL, 8);
+(1, 'Perhiasan dan Aksesoris', 'perhiasan-dan-aksesoris', 'kat1.jpg', 'icon-diamond', NULL, 1),
+(2, 'Fashion & Busana Wanita', 'fashion--busana-wanita', 'fashion_wanita.jpg', 'icon-heart', NULL, 2),
+(6, 'Fashion & Busana Pria', 'fashion--busana-pria', 'fashion.jpg', NULL, 'Jewelry_Watch.jpg', 3),
+(9, 'Alat Musik & Pro Audio', 'alat-musik--pro-audio', 'alat_musik.jpg', 'icon-music-note', NULL, 4),
+(10, 'Tas, Koper & Perjalanan', 'tas-koper--perjalanan', 'perjalanan.jpg', 'icon-briefcase', NULL, 5),
+(12, 'Perhiasan dan Jam Tangan', 'perhiasan-dan-jam-tangan', 'Jewelry_Watch.jpg', 'icon-gift', NULL, 6),
+(13, 'Olahraga dan Luar Rumah', 'olahraga-dan-luar-rumah', 'olahraga3.jpg', 'icon-exit', '', 7),
+(14, 'Taman dan Alat Dapur', 'taman-dan-alat-dapur', 'dapur1.jpg', 'icon-store', NULL, 8);
 
 -- --------------------------------------------------------
 
@@ -1202,29 +1183,29 @@ CREATE TABLE `rb_kategori_produk_sub` (
 --
 
 INSERT INTO `rb_kategori_produk_sub` (`id_kategori_produk_sub`, `id_kategori_produk`, `nama_kategori_sub`, `kategori_seo_sub`, `icon_kode`, `icon_image`) VALUES
-(1, 2, 'Alat Kecantikan', 'Alat Kecantikan', NULL, NULL),
-(2, 2, 'Perawatan Tubuh', 'Perawatan Tubuh', NULL, NULL),
-(3, 1, 'Fashion', 'Fashion', '', NULL),
-(4, 1, 'Dekorasi Ruangan', 'Dekorasi Ruangan', '', NULL),
-(6, 1, 'Rotan', 'Rotan', '', NULL),
-(7, 14, 'Biji-Bijian', 'Biji-Bijian', NULL, NULL),
-(8, 14, 'Buah-Buahan', 'Buah-Buahan', NULL, NULL),
-(9, 14, 'Sayuran', 'Sayuran', NULL, NULL),
-(10, 14, 'Pertanian & Rempah Lainnya', 'Pertanian & Rempah Lainnya', NULL, NULL),
-(11, 2, 'Kosmetik & Perawatan Wajah', 'Kosmetik & Perawatan Wajah', NULL, NULL),
-(12, 2, 'Perawatan & Kecantikan Lainnya', 'Perawatan & Kecantikan Lainnya', NULL, NULL),
-(13, 12, 'Ikan Hias', 'Ikan Hias', NULL, NULL),
-(14, 6, 'Halal', 'Halal', NULL, NULL),
-(15, 6, 'Herbal', 'Herbal', NULL, NULL),
-(16, 6, 'Bahan Pokok', 'Bahan Pokok', NULL, NULL),
-(17, 12, 'Pakan Ikan', 'Pakan Ikan', NULL, NULL),
-(18, 12, 'Perikanan Lainnya', 'Perikanan Lainnya', NULL, NULL),
-(19, 12, 'Ikan Air Laut', 'Ikan Air Laut', NULL, NULL),
-(20, 12, 'Ikan Air Tawar', 'Ikan Air Tawar', NULL, NULL),
-(21, 9, 'Peralatan Listrik Kecil', 'Peralatan Listrik Kecil', NULL, NULL),
-(22, 9, 'Peralatan Listrik Besar', 'Peralatan Listrik Besar', NULL, NULL),
-(23, 9, 'Elektronik Lainnya', 'Elektronik Lainnya', NULL, NULL),
-(24, 1, 'Budaya & Kreatif Lainnya', 'Budaya & Kreatif Lainnya', '', NULL);
+(1, 2, 'Kiyora Sedang', 'kiyora-sedang', NULL, NULL),
+(2, 2, 'Kiyora Dalam', 'kiyora-dalam', NULL, NULL),
+(3, 1, 'Kalung', 'kalung', '', NULL),
+(4, 1, 'Jam tangan', 'jam-tangan', '', NULL),
+(6, 1, 'Cincin', 'cincin', '', NULL),
+(7, 14, 'Cookware', 'cookware', NULL, NULL),
+(8, 14, 'Decoration', 'decoration', NULL, NULL),
+(9, 14, 'Furniture', 'furniture', NULL, NULL),
+(10, 14, 'Garden Tools', 'garden-tools', NULL, NULL),
+(11, 13, 'Freezer Burn', 'freezer-burn', NULL, NULL),
+(12, 13, 'Frigde Cooler', 'frigde-cooler', NULL, NULL),
+(13, 13, 'Wine Cabinets', 'wine-cabinets', NULL, NULL),
+(14, 6, 'Accessories', 'accessories', NULL, NULL),
+(15, 6, 'Kid\'s Fashion', 'kids-fashion', NULL, NULL),
+(16, 6, 'Shoes', 'shoes', NULL, NULL),
+(17, 10, 'Car Electronics', 'car-electronics', NULL, NULL),
+(18, 10, 'Office Electronics', 'office-electronics', NULL, NULL),
+(19, 12, 'Emas Putih', 'emas-putih', NULL, NULL),
+(20, 12, 'Cincin Kawin', 'cincin-kawin', NULL, NULL),
+(21, 9, 'Gitar', 'gitar', NULL, NULL),
+(22, 9, 'Piano', 'piano', NULL, NULL),
+(23, 9, 'Talempong', 'talempong', NULL, NULL),
+(24, 1, 'sdasd', 'sdasd', '', NULL);
 
 -- --------------------------------------------------------
 
@@ -6438,7 +6419,8 @@ INSERT INTO `statistik` (`ip`, `tanggal`, `hits`, `online`) VALUES
 ('182.1.133.74', '2021-04-22', 9, '1619036332'),
 ('162.210.193.226', '2021-04-22', 4, '1619038212'),
 ('182.1.134.46', '2021-04-22', 7, '1619040161'),
-('::1', '2021-06-28', 46, '1624882666');
+('::1', '2021-06-28', 46, '1624882666'),
+('::1', '2022-06-09', 6, '1654767930');
 
 -- --------------------------------------------------------
 
