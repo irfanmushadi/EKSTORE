@@ -3,7 +3,11 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
+<<<<<<< HEAD
 -- Generation Time: Jun 10, 2022 at 07:02 AM
+=======
+-- Generation Time: Jun 09, 2022 at 11:49 AM
+>>>>>>> 03f3d22ceefc333533379bc5b6c205cce92a5775
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.3.31
 
@@ -129,8 +133,13 @@ INSERT INTO `banner` (`id_banner`, `id_kategori_banner`, `judul`, `keterangan`, 
 (21, 0, 'Pembayaran aman', 'Pembayaran aman 100%', 'https://phpmu.com', '', 'icon-credit-card', 'top', '2017-05-21'),
 (22, 0, '90 uang Kembali', 'Jika barang Bermasalah', 'https://phpmu.com', '', 'icon-sync', 'top', '2017-05-21'),
 (23, 0, 'Pengiriman gratis', 'Untuk pesanan min Rp 999.000', 'https://phpmu.com', '', 'icon-rocket', 'top', '2017-05-21'),
+<<<<<<< HEAD
 (24, 1, 'Call us 24/7', 'Hubungi (0751) 461234\r\n<h3>0877 1248 1568</h3> @ SMESCO Indonesia Jalan Gatot Subroto 94, Jakarta 12780, Indonesia\r\ncontact@ekstore.com', 'https://phpmu.com', '', '', 'footer', '2020-02-07'),
 (25, 2, 'Tentang Ekstore', '', 'https://phpmu.com', '', '', 'footer', '2020-02-07'),
+=======
+(24, 1, 'Call us 24/7', 'Hubungi (0751) 461692\r\n<h3>0812 6777 13xx</h3> Jl. Angkasa Puri, Perundam, Padang\r\ncontact@tajalapak.com', 'https://phpmu.com', '', '', 'footer', '2020-02-07'),
+(25, 2, 'Tentang Tajalapak', '', 'https://phpmu.com', '', '', 'footer', '2020-02-07'),
+>>>>>>> 03f3d22ceefc333533379bc5b6c205cce92a5775
 (26, 2, 'Aturan Penggunaan', '', 'https://phpmu.com', '', '', 'footer', '2020-02-07'),
 (27, 2, 'Kebijakan Privasi', '', 'https://phpmu.com', '', '', 'footer', '2020-02-07'),
 (28, 2, 'Affiliate Program', '', 'https://phpmu.com', '', '', 'footer', '2020-02-07'),
@@ -357,8 +366,13 @@ CREATE TABLE `halamanstatis` (
 --
 
 INSERT INTO `halamanstatis` (`id_halaman`, `judul`, `judul_seo`, `isi_halaman`, `tgl_posting`, `gambar`, `username`, `dibaca`, `jam`, `hari`) VALUES
+<<<<<<< HEAD
 (46, 'Tentang Kami Ekstore', 'tentang-kami-Ekstore', '<p>ekstore.com merupakan portal online berita dan hiburan yang berfokus pada pembaca Indonesia baik yang berada di tanah air maupun yang tinggal di luar negeri. Berita Tajalapak.com diupdate selama 24 jam dan mendapatkan kunjungan lebih dari 190 juta pageviews setiap bulannya (Sumber: Google Analytics).</p>\r\n\r\n<p>ekstore.com memiliki beragam konten dari berita umum, politik, peristiwa, internasional, ekonomi, lifestyle, selebriti, sports, bola, auto, teknologi, dan lainya. Tajalapak juga merupakan salah satu portal pertama yang memberikan inovasi konten video dan mobile (handphone). Para pembaca kami adalah profesional, karyawan kantor, pengusaha, politisi, pelajar, dan ibu rumah tangga.</p>\r\n\r\n<p>Konten berita Tajalapak.com ditulis secara tajam, singkat, padat, dan dinamis sebagai respons terhadap tuntutan masyarakat yang semakin efisien dalam membaca berita. Selain itu konsep portal berita online juga semakin menjadi pilihan masyarakat karena sifatnya yang up-to-date dan melaporkan kejadian peristiwa secara instant pada saat itu juga sehingga masyarakat tidak perlu menunggu sampai esok harinya untuk membaca berita yang terjadi.</p>\r\n\r\n<p>Tajalapak.com resmi diluncurkan (Commercial Launch) sebagai portal berita pada 1 Maret 2007) dan merupakan cikal-bakal bisnis online pertama milik PT Php MU Tbk, sebuah perusahan media terintegrasi yang terbesar di Indonesia dan di Asia Tenggara. PHPMU juga memiliki dan mengelola bisnis media TV (RCTI, MNC TV, Global TV), media cetak (Koran Seputar Indonesia, Tabloid Genie, Tabloid Mom &amp; Kiddie, majalah HighEnd, dan Trust), media radio (SINDO, Trijaya FM, ARH Global, Radio Dangdut Indonesia, V Radio), serta sejumlah bisnis media lainnya (mobile VAS, Manajemen artis, rumah produksi film, agen iklan, dll).</p>\r\n\r\n<p>Sampai dengan bulan Oktober 2008, Tajalapak.com mendapatkan peringkat ke 24 dari Top 100 website terpopuler di Indonesia (Sumber: Alexa.com), peringkat ini terus naik yang disebabkan semakin banyak pengunjung situs yang mengakses Tajalapak.com setiap harinya. Selain itu, jumlah pengguna internet yang mencapai 25 juta (Sumber: data APJII per 2005) diperkirakan untuk terus tumbuh dengan signifikan dalam beberapa tahun ke depan.</p>\r\n', '2014-04-07', '', 'admin', 93, '13:10:57', 'Senin'),
 (48, 'Cara Belanja Disini', 'cara-belanja-disini', '1. DAFTAR AKUN MELALUI MENU (MASUK & DAFTAR)\r\n    Masukkan data anda seperti username (Tanpa Menggunkan Spasi),email,jenis kelamin dan password anda setelah itu klik \"DAFTAR\".\r\n\r\n2. MASUK KEMENU LOGIN (SETELAH MENDAFTARKAN AKUN)\r\n    Setelah berhasil daftarkan akun, silahkan mengklik menu masuk dan login menggunakan username/email dan password yang didaftarkan(Pastikan dalam pengisian harus sesuai dengan yang didaftarkan)\r\n\r\n3. MENGISI DATA DIRI DENGAN SESUAI\r\n     Setelah berhasil masuk dari menu login, tahap selanjutnya ialah akan menampilkan menu untuk mengisi data diri (Isi Data Diri Anda Dengan Valid). Dalam tahapan ini diharuskan mengisi data diri dengan sesuai pada kolom yang disediakan\r\n\r\n4.MENCARI PRODUK YANG DI INGINKAN BISA MELALUI MENU SEARCH ATAU KATEGORI PRODUK.\r\n    untuk mencari produk yang anda inginkan, anda bisa mencari lewat menu search atau anda bisa memilih sesuai dengan kategori produk.\r\n\r\n5.MELAKUKAN CHECK OUT PRODUK\r\n     Setelah anda menemukan produk yang diinginkan, silahkan klik \"Tambah Keranjang\" setelah itu masuk ke menu Icon Keranjang yang ada di pojok Kanan Atas, kemudian klik produk yang ingin anda Check Out.\r\n\r\n6.MELAKUKAN PEMBELIAN PRODUK\r\n     Silahkan anda mengatur jumlah produk yang ingin anda beli setelah itu klik tombol \"Beli Sekarang\"\r\n\r\n7.MENGISI DETAIL PEMBELIAN.\r\n     Silahkan Sobat Ekstore memilih detail pembelian seperti warna, type, dll yang disediakan oleh penjual,setelah itu klik \"Lanjut Pembayaran\"\r\n\r\n8.MELAKUKAN PEMBAYARAN\r\n     Pada bagian ini sobat ekstore silahkan isi identitas penerima, seperti : Nama,No Hp, dan Alamat serta memilih metode pembayaran dan jasa kirim yang akan digunakan,setelah itu klik \"Bayar Produk\"\r\n\r\n\r\n', '2014-04-07', '', 'admin', 95, '13:32:28', 'Senin'),
+=======
+(46, 'Tentang Kami Tajalapak', 'tentang-kami-tajalapak', '<p>Tajalapak.com merupakan portal online berita dan hiburan yang berfokus pada pembaca Indonesia baik yang berada di tanah air maupun yang tinggal di luar negeri. Berita Tajalapak.com diupdate selama 24 jam dan mendapatkan kunjungan lebih dari 190 juta pageviews setiap bulannya (Sumber: Google Analytics).</p>\r\n\r\n<p>Tajalapak.com memiliki beragam konten dari berita umum, politik, peristiwa, internasional, ekonomi, lifestyle, selebriti, sports, bola, auto, teknologi, dan lainya. Tajalapak juga merupakan salah satu portal pertama yang memberikan inovasi konten video dan mobile (handphone). Para pembaca kami adalah profesional, karyawan kantor, pengusaha, politisi, pelajar, dan ibu rumah tangga.</p>\r\n\r\n<p>Konten berita Tajalapak.com ditulis secara tajam, singkat, padat, dan dinamis sebagai respons terhadap tuntutan masyarakat yang semakin efisien dalam membaca berita. Selain itu konsep portal berita online juga semakin menjadi pilihan masyarakat karena sifatnya yang up-to-date dan melaporkan kejadian peristiwa secara instant pada saat itu juga sehingga masyarakat tidak perlu menunggu sampai esok harinya untuk membaca berita yang terjadi.</p>\r\n\r\n<p>Tajalapak.com resmi diluncurkan (Commercial Launch) sebagai portal berita pada 1 Maret 2007) dan merupakan cikal-bakal bisnis online pertama milik PT Php MU Tbk, sebuah perusahan media terintegrasi yang terbesar di Indonesia dan di Asia Tenggara. PHPMU juga memiliki dan mengelola bisnis media TV (RCTI, MNC TV, Global TV), media cetak (Koran Seputar Indonesia, Tabloid Genie, Tabloid Mom &amp; Kiddie, majalah HighEnd, dan Trust), media radio (SINDO, Trijaya FM, ARH Global, Radio Dangdut Indonesia, V Radio), serta sejumlah bisnis media lainnya (mobile VAS, Manajemen artis, rumah produksi film, agen iklan, dll).</p>\r\n\r\n<p>Sampai dengan bulan Oktober 2008, Tajalapak.com mendapatkan peringkat ke 24 dari Top 100 website terpopuler di Indonesia (Sumber: Alexa.com), peringkat ini terus naik yang disebabkan semakin banyak pengunjung situs yang mengakses Tajalapak.com setiap harinya. Selain itu, jumlah pengguna internet yang mencapai 25 juta (Sumber: data APJII per 2005) diperkirakan untuk terus tumbuh dengan signifikan dalam beberapa tahun ke depan.</p>\r\n', '2014-04-07', '', 'admin', 93, '13:10:57', 'Senin'),
+(48, 'Cara Belanja Disini', 'cara-belanja-disini', '<p>Tajalapak.com merupakan portal online berita dan hiburan yang berfokus pada pembaca Indonesia baik yang berada di tanah air maupun yang tinggal di luar negeri. Berita Tajalapak.com diupdate selama 24 jam dan mendapatkan kunjungan lebih dari 190 juta pageviews setiap bulannya (Sumber: Google Analytics).</p>\r\n\r\n<p>Tajalapak.com memiliki beragam konten dari berita umum, politik, peristiwa, internasional, ekonomi, lifestyle, selebriti, sports, bola, auto, teknologi, dan lainya. Tajalapak juga merupakan salah satu portal pertama yang memberikan inovasi konten video dan mobile (handphone). Para pembaca kami adalah profesional, karyawan kantor, pengusaha, politisi, pelajar, dan ibu rumah tangga.</p>\r\n\r\n<p>Tajalapak.com memiliki beragam konten dari berita umum, politik, peristiwa, internasional, ekonomi, lifestyle, selebriti, sports, bola, auto, teknologi, dan lainya. Tajalapak juga merupakan salah satu portal pertama yang memberikan inovasi konten video dan mobile (handphone). Para pembaca kami adalah profesional, karyawan kantor, pengusaha, politisi, pelajar, dan ibu rumah tangga.</p>\r\n', '2014-04-07', '', 'admin', 93, '13:32:28', 'Senin'),
+>>>>>>> 03f3d22ceefc333533379bc5b6c205cce92a5775
 (52, 'Star Seller 1 Bulan', 'star-seller-1-bulan', '<p>Keterangan untuk paket&nbsp;Star Seller 1 Bulan</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n', '2020-02-23', '', 'admin', 4, '06:28:09', 'Minggu'),
 (53, 'Star Seller 3 Bulan', 'star-seller-3-bulan', '<p>Keterangan untuk paket&nbsp;Star Seller 3 Bulan</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n', '2020-02-23', '', 'admin', 0, '06:28:22', 'Minggu'),
 (54, 'Star Seller 6 Bulan', 'star-seller-6-bulan', '<p>Keterangan untuk paket&nbsp;Star Seller 6 Bulan</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n', '2020-02-23', '', 'admin', 1, '06:28:32', 'Minggu'),
@@ -452,7 +466,11 @@ CREATE TABLE `identitas` (
 --
 
 INSERT INTO `identitas` (`id_identitas`, `nama_website`, `pengirim_email`, `email`, `password`, `url`, `facebook`, `rekening`, `no_telp`, `meta_deskripsi`, `meta_keyword`, `favicon`, `maps`, `api_mutasibank`, `api_rajaongkir`, `free_reseller`, `flash_deal`, `info_atas`) VALUES
+<<<<<<< HEAD
 (1, 'Ekstore : Belanja produk lokal kualitas global', 'EKSTORE.COM', 'ekstore.indonesia@gmail.com', 'xxxxxxxxxxxx', 'https://cnkponcol.com/tajalapak', 'https://www.facebook.com/robbyprihandaya, https://twitter.com/robbyprihandaya, https://plus.google.com/106633506064864167239, https://id.linkedin.com/', '3511887071', '0877-1248-1568', 'Menyajikan produk berkualitas, terbaru, dan terpercaya di indonesia.', 'Selamat datang di CMS Swarakalibata, adalah penyempurnaan dan perbaikan.', 'ekstore.png', '||bzFj22s4iof4VfkGTqRXhmLqLcS2UevnCAElgis0RkRsWtGhwzZvo4lVEnxxxxx', '', '66ff6e50774f0edd8e4e04e3c969ee57', 12, '2021-02-12', '<strong>Pengiriman gratis</strong>\r\nUntuk pesanan min Rp 999.000');
+=======
+(1, 'Ekstore : Belanja produk lokal kualitas global', 'EKSTORE.COM', 'ekstore.indonesia@gmail.com', 'xxxxxxxxxxxx', 'https://cnkponcol.com/tajalapak', 'https://www.facebook.com/robbyprihandaya, https://twitter.com/robbyprihandaya, https://plus.google.com/106633506064864167239, https://id.linkedin.com/', '3511887071', '0896-6777-1377', 'Menyajikan produk berkualitas, terbaru, dan terpercaya di indonesia.', 'Selamat datang di CMS Swarakalibata, adalah penyempurnaan dan perbaikan.', 'tajalapak.png', '||bzFj22s4iof4VfkGTqRXhmLqLcS2UevnCAElgis0RkRsWtGhwzZvo4lVEnxxxxx', '', '66ff6e50774f0edd8e4e04e3c969ee57', 12, '2021-02-12', '<strong>Pengiriman gratis</strong>\r\nUntuk pesanan min Rp 999.000');
+>>>>>>> 03f3d22ceefc333533379bc5b6c205cce92a5775
 
 -- --------------------------------------------------------
 
@@ -500,7 +518,7 @@ INSERT INTO `iklantengah` (`id_iklantengah`, `judul`, `username`, `url`, `gambar
 (2, 'Home - Iklan Home No 2', 'admin', 'http://phpmu.com', '2.jpg', '2020-01-30'),
 (1, 'Home - Iklan Home No 1', 'admin', 'http://phpmu.com', '1.jpg', '2020-01-30'),
 (34, 'Footer - Iklan No 1', 'admin', 'https://members.phpmu.com', 'ad-1.jpg', '2020-01-30'),
-(35, 'Footer - Iklan No 2', 'admin', 'https://phpmu.com', 'ad-22.png', '2020-01-30');
+(35, 'Footer - Iklan No 2', 'admin', 'https://phpmu.com', 'ad-2.jpg', '2020-01-30');
 
 -- --------------------------------------------------------
 
@@ -882,8 +900,8 @@ CREATE TABLE `pasangiklan` (
 --
 
 INSERT INTO `pasangiklan` (`id_pasangiklan`, `judul`, `username`, `url`, `gambar`, `tgl_posting`) VALUES
-(1, 'Iklan Sidebar Kanan atas 2', 'admin', 'http://phpmu.com', 'iklan-atas.png', '2021-02-01'),
-(2, 'Iklan Sidebar Kanan atas 1', 'admin', 'http://phpmu.com', 'iklan-bawah.png', '2021-02-01');
+(1, 'Iklan Sidebar Kanan atas 2', 'admin', 'http://phpmu.com', 'home-2-2.jpg', '2021-02-01'),
+(2, 'Iklan Sidebar Kanan atas 1', 'admin', 'http://phpmu.com', 'home-2-1.jpg', '2021-02-01');
 
 -- --------------------------------------------------------
 
@@ -1149,6 +1167,7 @@ CREATE TABLE `rb_kategori_produk` (
 --
 
 INSERT INTO `rb_kategori_produk` (`id_kategori_produk`, `nama_kategori`, `kategori_seo`, `gambar`, `icon_kode`, `icon_image`, `urutan`) VALUES
+<<<<<<< HEAD
 (1, 'Perhiasan Dan Aksesoris', 'Perhiasan-Dan-Aksesoris', 'perhiasan.png', 'icon-diamond', NULL, 1),
 (2, 'Perawatan Dan Kecantikan', 'Perawatan--Dan-Kecantikan', 'kosmetik.png', 'icon-heart', NULL, 2),
 (6, 'Fashion & Busana', 'fashion--busana', 'kat2.jpg', NULL, 'Jewelry_Watch.jpg', 3),
@@ -1159,6 +1178,16 @@ INSERT INTO `rb_kategori_produk` (`id_kategori_produk`, `nama_kategori`, `katego
 (14, 'Kebutuhan Rumah Tangga', 'Kebutuhan-Rumah-Tangga', 'rumah.png', 'icon-store', NULL, 8),
 (16, 'Pertanian Dan Rempah', 'Pertanian-Dan-Rempah', 'rempah1.png', '', 'rempah33.png', 8),
 (17, 'Perikanan Dan Sejenisnya', 'Perikanan-Dan-Sejenisnya', 'perikanan.png', '', 'perikanan22.png', 8);
+=======
+(1, 'Perhiasan dan Aksesoris', 'perhiasan-dan-aksesoris', 'kat1.jpg', 'icon-diamond', NULL, 1),
+(2, 'Fashion & Busana Wanita', 'fashion--busana-wanita', 'fashion_wanita.jpg', 'icon-heart', NULL, 2),
+(6, 'Fashion & Busana Pria', 'fashion--busana-pria', 'fashion.jpg', NULL, 'Jewelry_Watch.jpg', 3),
+(9, 'Alat Musik & Pro Audio', 'alat-musik--pro-audio', 'alat_musik.jpg', 'icon-music-note', NULL, 4),
+(10, 'Tas, Koper & Perjalanan', 'tas-koper--perjalanan', 'perjalanan.jpg', 'icon-briefcase', NULL, 5),
+(12, 'Perhiasan dan Jam Tangan', 'perhiasan-dan-jam-tangan', 'Jewelry_Watch.jpg', 'icon-gift', NULL, 6),
+(13, 'Olahraga dan Luar Rumah', 'olahraga-dan-luar-rumah', 'olahraga3.jpg', 'icon-exit', '', 7),
+(14, 'Taman dan Alat Dapur', 'taman-dan-alat-dapur', 'dapur1.jpg', 'icon-store', NULL, 8);
+>>>>>>> 03f3d22ceefc333533379bc5b6c205cce92a5775
 
 -- --------------------------------------------------------
 
@@ -1180,6 +1209,7 @@ CREATE TABLE `rb_kategori_produk_sub` (
 --
 
 INSERT INTO `rb_kategori_produk_sub` (`id_kategori_produk_sub`, `id_kategori_produk`, `nama_kategori_sub`, `kategori_seo_sub`, `icon_kode`, `icon_image`) VALUES
+<<<<<<< HEAD
 (1, 2, 'Perawatan Tubuh', 'Perawatan-Tubuh', NULL, NULL),
 (2, 2, 'Kosmetik', 'Kosmetik', NULL, NULL),
 (3, 9, 'Kelistrikan', 'Kelistrikan', '', NULL),
@@ -1217,6 +1247,31 @@ INSERT INTO `rb_kategori_produk_sub` (`id_kategori_produk_sub`, `id_kategori_pro
 (36, 6, 'Fashion Dan Busana Lainnya', 'Fashion-Dan-Busana-Lainnya', NULL, NULL),
 (37, 14, 'Kebutuhan Rumah Tangga Lainnya', 'Kebutuhan-Rumah-Tangga-Lainnya', NULL, NULL),
 (38, 10, 'Tas,Koper,Perjalanan Lainnya', 'Tas-,-Koper-,-Perjalanan-Lainnya', NULL, NULL);
+=======
+(1, 2, 'Kiyora Sedang', 'kiyora-sedang', NULL, NULL),
+(2, 2, 'Kiyora Dalam', 'kiyora-dalam', NULL, NULL),
+(3, 1, 'Kalung', 'kalung', '', NULL),
+(4, 1, 'Jam tangan', 'jam-tangan', '', NULL),
+(6, 1, 'Cincin', 'cincin', '', NULL),
+(7, 14, 'Cookware', 'cookware', NULL, NULL),
+(8, 14, 'Decoration', 'decoration', NULL, NULL),
+(9, 14, 'Furniture', 'furniture', NULL, NULL),
+(10, 14, 'Garden Tools', 'garden-tools', NULL, NULL),
+(11, 13, 'Freezer Burn', 'freezer-burn', NULL, NULL),
+(12, 13, 'Frigde Cooler', 'frigde-cooler', NULL, NULL),
+(13, 13, 'Wine Cabinets', 'wine-cabinets', NULL, NULL),
+(14, 6, 'Accessories', 'accessories', NULL, NULL),
+(15, 6, 'Kid\'s Fashion', 'kids-fashion', NULL, NULL),
+(16, 6, 'Shoes', 'shoes', NULL, NULL),
+(17, 10, 'Car Electronics', 'car-electronics', NULL, NULL),
+(18, 10, 'Office Electronics', 'office-electronics', NULL, NULL),
+(19, 12, 'Emas Putih', 'emas-putih', NULL, NULL),
+(20, 12, 'Cincin Kawin', 'cincin-kawin', NULL, NULL),
+(21, 9, 'Gitar', 'gitar', NULL, NULL),
+(22, 9, 'Piano', 'piano', NULL, NULL),
+(23, 9, 'Talempong', 'talempong', NULL, NULL),
+(24, 1, 'sdasd', 'sdasd', '', NULL);
+>>>>>>> 03f3d22ceefc333533379bc5b6c205cce92a5775
 
 -- --------------------------------------------------------
 
@@ -6438,8 +6493,12 @@ INSERT INTO `statistik` (`ip`, `tanggal`, `hits`, `online`) VALUES
 ('162.210.193.226', '2021-04-22', 4, '1619038212'),
 ('182.1.134.46', '2021-04-22', 7, '1619040161'),
 ('::1', '2021-06-28', 46, '1624882666'),
+<<<<<<< HEAD
 ('::1', '2022-06-09', 47, '1654793962'),
 ('::1', '2022-06-10', 31, '1654833755');
+=======
+('::1', '2022-06-09', 6, '1654767930');
+>>>>>>> 03f3d22ceefc333533379bc5b6c205cce92a5775
 
 -- --------------------------------------------------------
 
