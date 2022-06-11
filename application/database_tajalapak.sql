@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 5.0.4
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 10, 2022 at 07:02 AM
--- Server version: 10.4.21-MariaDB
--- PHP Version: 7.3.31
+-- Generation Time: Jun 28, 2021 at 02:18 PM
+-- Server version: 10.4.17-MariaDB
+-- PHP Version: 7.4.14
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -127,10 +127,11 @@ INSERT INTO `banner` (`id_banner`, `id_kategori_banner`, `judul`, `keterangan`, 
 (19, 0, 'Layanan Hadiah', 'Mendukung layanan hadiah', 'https://phpmu.com', '', 'icon-gift', 'top', '2017-05-21'),
 (20, 0, 'Dukungan 1 x 24 jam', 'Dukungan khusus untuk anda', 'https://phpmu.com', '', 'icon-bubbles', 'top', '2017-05-21'),
 (21, 0, 'Pembayaran aman', 'Pembayaran aman 100%', 'https://phpmu.com', '', 'icon-credit-card', 'top', '2017-05-21'),
-(22, 0, '90 uang Kembali', 'Jika barang Bermasalah', 'https://phpmu.com', '', 'icon-sync', 'top', '2017-05-21'),
+(22, 0, '90% uang Kembali', 'Jika barang Bermasalah', 'https://phpmu.com', '', 'icon-sync', 'top', '2017-05-21'),
 (23, 0, 'Pengiriman gratis', 'Untuk pesanan min Rp 999.000', 'https://phpmu.com', '', 'icon-rocket', 'top', '2017-05-21'),
-(24, 1, 'Call us 24/7', 'Hubungi (0751) 461234\r\n<h3>0877 1248 1568</h3> @ SMESCO Indonesia Jalan Gatot Subroto 94, Jakarta 12780, Indonesia\r\ncontact@ekstore.com', 'https://phpmu.com', '', '', 'footer', '2020-02-07'),
-(25, 2, 'Tentang Ekstore', '', 'https://phpmu.com', '', '', 'footer', '2020-02-07'),
+(24, 1, 'Call us 24/7', 'Hubungi (0751) 461692\r\n<h3>087712468xxgitg</h3> Jl. Gatot Subroto 94, Jakarta 12780 dan
+Plaza De Espana Jalan Kalimantan 27 Lippo Village, Tangerang 15139\r\ncontact@ekstore.com', 'https://phpmu.com', '', '', 'footer', '2020-02-07'),
+(25, 2, 'Tentang Tajalapak', '', 'https://phpmu.com', '', '', 'footer', '2020-02-07'),
 (26, 2, 'Aturan Penggunaan', '', 'https://phpmu.com', '', '', 'footer', '2020-02-07'),
 (27, 2, 'Kebijakan Privasi', '', 'https://phpmu.com', '', '', 'footer', '2020-02-07'),
 (28, 2, 'Affiliate Program', '', 'https://phpmu.com', '', '', 'footer', '2020-02-07'),
@@ -357,8 +358,27 @@ CREATE TABLE `halamanstatis` (
 --
 
 INSERT INTO `halamanstatis` (`id_halaman`, `judul`, `judul_seo`, `isi_halaman`, `tgl_posting`, `gambar`, `username`, `dibaca`, `jam`, `hari`) VALUES
-(46, 'Tentang Kami Ekstore', 'tentang-kami-Ekstore', '<p>ekstore.com merupakan portal online berita dan hiburan yang berfokus pada pembaca Indonesia baik yang berada di tanah air maupun yang tinggal di luar negeri. Berita Tajalapak.com diupdate selama 24 jam dan mendapatkan kunjungan lebih dari 190 juta pageviews setiap bulannya (Sumber: Google Analytics).</p>\r\n\r\n<p>ekstore.com memiliki beragam konten dari berita umum, politik, peristiwa, internasional, ekonomi, lifestyle, selebriti, sports, bola, auto, teknologi, dan lainya. Tajalapak juga merupakan salah satu portal pertama yang memberikan inovasi konten video dan mobile (handphone). Para pembaca kami adalah profesional, karyawan kantor, pengusaha, politisi, pelajar, dan ibu rumah tangga.</p>\r\n\r\n<p>Konten berita Tajalapak.com ditulis secara tajam, singkat, padat, dan dinamis sebagai respons terhadap tuntutan masyarakat yang semakin efisien dalam membaca berita. Selain itu konsep portal berita online juga semakin menjadi pilihan masyarakat karena sifatnya yang up-to-date dan melaporkan kejadian peristiwa secara instant pada saat itu juga sehingga masyarakat tidak perlu menunggu sampai esok harinya untuk membaca berita yang terjadi.</p>\r\n\r\n<p>Tajalapak.com resmi diluncurkan (Commercial Launch) sebagai portal berita pada 1 Maret 2007) dan merupakan cikal-bakal bisnis online pertama milik PT Php MU Tbk, sebuah perusahan media terintegrasi yang terbesar di Indonesia dan di Asia Tenggara. PHPMU juga memiliki dan mengelola bisnis media TV (RCTI, MNC TV, Global TV), media cetak (Koran Seputar Indonesia, Tabloid Genie, Tabloid Mom &amp; Kiddie, majalah HighEnd, dan Trust), media radio (SINDO, Trijaya FM, ARH Global, Radio Dangdut Indonesia, V Radio), serta sejumlah bisnis media lainnya (mobile VAS, Manajemen artis, rumah produksi film, agen iklan, dll).</p>\r\n\r\n<p>Sampai dengan bulan Oktober 2008, Tajalapak.com mendapatkan peringkat ke 24 dari Top 100 website terpopuler di Indonesia (Sumber: Alexa.com), peringkat ini terus naik yang disebabkan semakin banyak pengunjung situs yang mengakses Tajalapak.com setiap harinya. Selain itu, jumlah pengguna internet yang mencapai 25 juta (Sumber: data APJII per 2005) diperkirakan untuk terus tumbuh dengan signifikan dalam beberapa tahun ke depan.</p>\r\n', '2014-04-07', '', 'admin', 93, '13:10:57', 'Senin'),
-(48, 'Cara Belanja Disini', 'cara-belanja-disini', '1. DAFTAR AKUN MELALUI MENU (MASUK & DAFTAR)\r\n    Masukkan data anda seperti username (Tanpa Menggunkan Spasi),email,jenis kelamin dan password anda setelah itu klik \"DAFTAR\".\r\n\r\n2. MASUK KEMENU LOGIN (SETELAH MENDAFTARKAN AKUN)\r\n    Setelah berhasil daftarkan akun, silahkan mengklik menu masuk dan login menggunakan username/email dan password yang didaftarkan(Pastikan dalam pengisian harus sesuai dengan yang didaftarkan)\r\n\r\n3. MENGISI DATA DIRI DENGAN SESUAI\r\n     Setelah berhasil masuk dari menu login, tahap selanjutnya ialah akan menampilkan menu untuk mengisi data diri (Isi Data Diri Anda Dengan Valid). Dalam tahapan ini diharuskan mengisi data diri dengan sesuai pada kolom yang disediakan\r\n\r\n4.MENCARI PRODUK YANG DI INGINKAN BISA MELALUI MENU SEARCH ATAU KATEGORI PRODUK.\r\n    untuk mencari produk yang anda inginkan, anda bisa mencari lewat menu search atau anda bisa memilih sesuai dengan kategori produk.\r\n\r\n5.MELAKUKAN CHECK OUT PRODUK\r\n     Setelah anda menemukan produk yang diinginkan, silahkan klik \"Tambah Keranjang\" setelah itu masuk ke menu Icon Keranjang yang ada di pojok Kanan Atas, kemudian klik produk yang ingin anda Check Out.\r\n\r\n6.MELAKUKAN PEMBELIAN PRODUK\r\n     Silahkan anda mengatur jumlah produk yang ingin anda beli setelah itu klik tombol \"Beli Sekarang\"\r\n\r\n7.MENGISI DETAIL PEMBELIAN.\r\n     Silahkan Sobat Ekstore memilih detail pembelian seperti warna, type, dll yang disediakan oleh penjual,setelah itu klik \"Lanjut Pembayaran\"\r\n\r\n8.MELAKUKAN PEMBAYARAN\r\n     Pada bagian ini sobat ekstore silahkan isi identitas penerima, seperti : Nama,No Hp, dan Alamat serta memilih metode pembayaran dan jasa kirim yang akan digunakan,setelah itu klik \"Bayar Produk\"\r\n\r\n\r\n', '2014-04-07', '', 'admin', 95, '13:32:28', 'Senin'),
+(46, 'Tentang Kami Ekstore', 'tentang-kami-Ekstore', '<p>Ekstore merupakan destinasi belanja dan berjualan online berskala internasional yang aman. Dimana setiap produk dapat diekspor ke berbagai Negara, dan selalu mementingkan kepuasan pelanggan.</p>\r\n\r\n<p> Ekstore memiliki beragam kategori dari Kecantikan, Budaya, Halal, Rempah, Perikanan, Pertanian, Pangan, Kreatif, Otomotif, Elektronik, makanan dan miuman serta Kebutuhan Rumah Tangga.</p>\r\n\r\n<p> Selain itu, sekarang memang orang-orang dapat lebih mudah untuk melakukan transaksi jual beli melalui online karena leih mudah dan praktik.  Para penjual tidak akan membutuhkn penyewaan tempat untuk membuka lapa penjualan mereka, dan pastinya juga dapat menghemat biaya bisnis para penjual.Ekstore ini diluncurkan sebagai aplikasi marketplace penjualan ekspor  bagi sekolah ekspor. Yang nantinya pasti akan terus berkembang, mulai dari fitur-fitur maupun kategori produk yang akan dijual nantinya.
+(48, 'Cara Belanja Disini', 'cara-belanja-disini', '<p>Cara belanja di ekstore ini sama saja seperti dibelanja pada marketplace lainnya seperti shope, lazada dan lainnya  hal yang pertama dilakukan adalah tentu saja melakukan pendaftaran, 
+
+dengan memasukkan 
+
+1. nama pengguna
+
+2. email
+
+3. password
+
+
+
+setelah itu ketika sudah masuk, untuk memudahkan menemukan produk yang ingin dibeli, bisa mengetikkan nama produk yang ingin dibeli, bisa mengetikkan nama produk pada kolom pencarian
+
+kemudian pilih opsi variasi pilihan produk
+pilih beli sekarang
+pilih opsi pengiriman sesuai dengan yang diinginkan
+gunakan voucher jika ada
+pilih metode pembayaran sesuai dengan yng diinginkan
+pilih buat pesanan.
 (52, 'Star Seller 1 Bulan', 'star-seller-1-bulan', '<p>Keterangan untuk paket&nbsp;Star Seller 1 Bulan</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n', '2020-02-23', '', 'admin', 4, '06:28:09', 'Minggu'),
 (53, 'Star Seller 3 Bulan', 'star-seller-3-bulan', '<p>Keterangan untuk paket&nbsp;Star Seller 3 Bulan</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n', '2020-02-23', '', 'admin', 0, '06:28:22', 'Minggu'),
 (54, 'Star Seller 6 Bulan', 'star-seller-6-bulan', '<p>Keterangan untuk paket&nbsp;Star Seller 6 Bulan</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n', '2020-02-23', '', 'admin', 1, '06:28:32', 'Minggu'),
@@ -413,7 +433,7 @@ CREATE TABLE `hubungi` (
 --
 
 INSERT INTO `hubungi` (`id_hubungi`, `nama`, `email`, `subjek`, `pesan`, `tanggal`, `jam`, `dibaca`, `lampiran`) VALUES
-(39, 'Usman Jayadi', 'jayady353@gmail.com', '::1', 'Kami memiliki komitmen untuk memberikan layanan terbaik kepada Anda dan selalu berusaha untuk menyediakan produk dan layanan terbaik yang Anda butuhkan. Apabila untuk alasan tertentu Anda merasa tidak puas dengan pelayanan kami, Anda dapat menyampaikan kritik dan saran Anda kepada kami. Kami akan menidaklanjuti masukan yang Anda berikan dan bila perlu mengambil tindakan untuk mencegah masalah yang sama terulang kembali.', '2017-01-23', '21:56:12', 'Y', ''),
+(39, 'Robby Prihandaya', 'robby.prihandaya@gmail.com', '::1', 'Kami memiliki komitmen untuk memberikan layanan terbaik kepada Anda dan selalu berusaha untuk menyediakan produk dan layanan terbaik yang Anda butuhkan. Apabila untuk alasan tertentu Anda merasa tidak puas dengan pelayanan kami, Anda dapat menyampaikan kritik dan saran Anda kepada kami. Kami akan menidaklanjuti masukan yang Anda berikan dan bila perlu mengambil tindakan untuk mencegah masalah yang sama terulang kembali.', '2017-01-23', '21:56:12', 'Y', ''),
 (35, 'yusri renor', 'aciafifah@gmail.com', 'pertanyaan', 'bagaimana cara mengunduh nomor ujian fak. pertanian', '2014-01-19', '00:00:00', 'Y', ''),
 (36, 'Lusi Rahmawati', 'robby.prihandaya@gmail.com', 'xvgxcvxc', 'gbvibviubuibiub', '2014-07-02', '00:00:00', 'Y', ''),
 (38, 'Udin Sedunia', 'udin.sedunia@gmail.com', 'Ip Pengirim : 120.177.28.244', 'Silahkan menghubungi kami melalui private message melalui form yang berada pada bagian kanan halaman ini. Kritik dan saran Anda sangat penting bagi kami untuk terus meningkatkan kualitas produk dan layanan yang kami berikan kepada Anda.', '2015-06-02', '00:00:00', 'Y', ''),
@@ -452,7 +472,7 @@ CREATE TABLE `identitas` (
 --
 
 INSERT INTO `identitas` (`id_identitas`, `nama_website`, `pengirim_email`, `email`, `password`, `url`, `facebook`, `rekening`, `no_telp`, `meta_deskripsi`, `meta_keyword`, `favicon`, `maps`, `api_mutasibank`, `api_rajaongkir`, `free_reseller`, `flash_deal`, `info_atas`) VALUES
-(1, 'Ekstore : Belanja produk lokal kualitas global', 'EKSTORE.COM', 'ekstore.indonesia@gmail.com', 'xxxxxxxxxxxx', 'https://cnkponcol.com/tajalapak', 'https://www.facebook.com/robbyprihandaya, https://twitter.com/robbyprihandaya, https://plus.google.com/106633506064864167239, https://id.linkedin.com/', '3511887071', '0877-1248-1568', 'Menyajikan produk berkualitas, terbaru, dan terpercaya di indonesia.', 'Selamat datang di CMS Swarakalibata, adalah penyempurnaan dan perbaikan.', 'ekstore.png', '||bzFj22s4iof4VfkGTqRXhmLqLcS2UevnCAElgis0RkRsWtGhwzZvo4lVEnxxxxx', '', '66ff6e50774f0edd8e4e04e3c969ee57', 12, '2021-02-12', '<strong>Pengiriman gratis</strong>\r\nUntuk pesanan min Rp 999.000');
+(1, 'Ekstore : Shop With The Best Experients', 'EKSTORE.COM', 'ekstore.indonesia@gmail.com', 'xxxxxxxxxxxx', 'https://cnkponcol.com/tajalapak', 'https://www.facebook.com/robbyprihandaya, https://twitter.com/robbyprihandaya, https://plus.google.com/106633506064864167239, https://id.linkedin.com/', '3511887071', '0896-6777-1377', 'Menyajikan produk terbaru, terbaik, dan terpercaya di indonesia', 'Selamat datang di CMS Swarakalibata, adalah penyempurnaan dan perbaikan.', 'logo-eks.png', '||bzFj22s4iof4VfkGTqRXhmLqLcS2UevnCAElgis0RkRsWtGhwzZvo4lVEnxxxxx', '', '66ff6e50774f0edd8e4e04e3c969ee57', 12, '2021-02-12', '<strong>Pengiriman gratis</strong>\r\nUntuk pesanan min Rp 999.000');
 
 -- --------------------------------------------------------
 
@@ -474,7 +494,7 @@ CREATE TABLE `iklanatas` (
 --
 
 INSERT INTO `iklanatas` (`id_iklanatas`, `judul`, `username`, `url`, `gambar`, `tgl_posting`) VALUES
-(40, 'Dapatkan Diskon 25%', 'N', 'Berlangganan milis Ekstore.Com\r\nuntuk menerima pembaruan tentang informasi terbaru, \r\npenawaran khusus dan promosi kami.', 'subscribe.jpg', '2021-01-30');
+(40, 'Dapatkan Diskon 25%', 'N', 'Berlangganan milis Tajalapak.Com\r\nuntuk menerima pembaruan tentang informasi terbaru, \r\npenawaran khusus dan promosi kami.', 'subscribe.jpg', '2021-01-30');
 
 -- --------------------------------------------------------
 
@@ -787,7 +807,7 @@ INSERT INTO `menu` (`id_menu`, `id_parent`, `nama_menu`, `link`, `aktif`, `posit
 (112, 22, 'Dalam Negeri', '#', 'Ya', 'Bottom', 20, NULL),
 (151, 150, 'Semua Produk', 'produk', 'Ya', 'Bottom', 7, NULL),
 (150, 0, 'Shop', '#', 'Ya', 'Bottom', 6, NULL),
-(116, 0, 'Mitra Ekstore', '#', 'Ya', 'Top', 3, NULL),
+(116, 0, 'Mitra Tajalapak', '#', 'Ya', 'Top', 3, NULL),
 (126, 22, 'Luar Negeri', '#', 'Ya', 'Bottom', 21, NULL),
 (148, 150, 'Konfirmasi Orders', 'konfirmasi', 'Ya', 'Bottom', 10, NULL),
 (149, 150, 'Tracking Orders', 'konfirmasi/tracking', 'Ya', 'Bottom', 9, NULL),
@@ -795,6 +815,11 @@ INSERT INTO `menu` (`id_menu`, `id_parent`, `nama_menu`, `link`, `aktif`, `posit
 (155, 150, 'Orders Report', 'members/orders_report', 'Ya', 'Bottom', 11, NULL),
 (157, 0, 'Beranda', 'main', 'Ya', 'Bottom', 4, ''),
 (159, 0, 'Blog', 'berita', 'Ya', 'Bottom', 5, ''),
+(166, 0, 'Donasi', '#', 'Ya', 'Bottom', 12, ''),
+(167, 166, 'Sedekah Online', 'donasi/sedekah', 'Ya', 'Bottom', 13, ''),
+(168, 166, 'Wakaf Uang', 'donasi/wakaf_uang', 'Ya', 'Bottom', 14, ''),
+(169, 166, 'Wakaf Asset', 'donasi/wakaf_asset', 'Ya', 'Bottom', 15, ''),
+(170, 166, 'Jemput Zakat', 'donasi/jemput_zakat', 'Ya', 'Bottom', 16, ''),
 (171, 0, 'Theme', '#', 'Ya', 'Bottom', 17, ''),
 (172, 171, 'Red', 'main/theme/red', 'Ya', 'Bottom', 18, ''),
 (173, 171, 'Green', 'main/theme/green', 'Ya', 'Bottom', 19, ''),
@@ -1149,16 +1174,13 @@ CREATE TABLE `rb_kategori_produk` (
 --
 
 INSERT INTO `rb_kategori_produk` (`id_kategori_produk`, `nama_kategori`, `kategori_seo`, `gambar`, `icon_kode`, `icon_image`, `urutan`) VALUES
-(1, 'Perhiasan Dan Aksesoris', 'Perhiasan-Dan-Aksesoris', 'perhiasan.png', 'icon-diamond', NULL, 1),
-(2, 'Perawatan Dan Kecantikan', 'Perawatan--Dan-Kecantikan', 'kosmetik.png', 'icon-heart', NULL, 2),
-(6, 'Fashion & Busana', 'fashion--busana', 'kat2.jpg', NULL, 'Jewelry_Watch.jpg', 3),
-(9, 'Perangkat Dan Elektronik', 'Perangkat-Dan-Elektronik', 'kat1.jpg', 'icon-music-note', NULL, 4),
-(10, 'Tas, Koper & Perjalanan', 'tas-koper--perjalanan', 'perjalanan.jpg', 'icon-briefcase', NULL, 5),
-(12, 'Budaya Dan Kreatif', 'Budaya-dan-Kreatif', 'kreatif.png', 'icon-gift', NULL, 6),
-(13, 'Makanan Dan Minuman', 'Makanan-dan-Minuman', 'makanan.png', '', 'makanan11.png', 7),
-(14, 'Kebutuhan Rumah Tangga', 'Kebutuhan-Rumah-Tangga', 'rumah.png', 'icon-store', NULL, 8),
-(16, 'Pertanian Dan Rempah', 'Pertanian-Dan-Rempah', 'rempah1.png', '', 'rempah33.png', 8),
-(17, 'Perikanan Dan Sejenisnya', 'Perikanan-Dan-Sejenisnya', 'perikanan.png', '', 'perikanan22.png', 8);
+(1, 'Budaya & Kreatif', 'Budaya & Kreatif', 'kreatif.png', 'icon-gift', NULL, 1),
+(2, 'Perawatan & Kecantikan', 'Perawatan & Kecantikan', 'kosmetik.png', 'icon-heart', NULL, 2),
+(6, 'Makanan & Minuman', 'Makanan & Minuman', 'makanan.png', NULL, 'makanan11.png', 3),
+(9, 'Elektronik', 'Elektronik', 'alat_musik.jpg', 'icon-music-note', NULL, 4),
+(12, 'Perikanan & Sejenisnya', 'perikanan & Sejenisnya', 'perikanan.png', 'perikanan22.png', NULL, 6),
+(13, 'Pertanian & Rempah', 'Pertanian & Rempah', 'rempah1.png', 'rempah33.png', '', 7),
+(14, 'Kebutuhan Rumah Tangga', 'Kebutuhan Rumah Tangga', 'rumah.png', 'phicon-store', NULL, 8);
 
 -- --------------------------------------------------------
 
@@ -1180,43 +1202,29 @@ CREATE TABLE `rb_kategori_produk_sub` (
 --
 
 INSERT INTO `rb_kategori_produk_sub` (`id_kategori_produk_sub`, `id_kategori_produk`, `nama_kategori_sub`, `kategori_seo_sub`, `icon_kode`, `icon_image`) VALUES
-(1, 2, 'Perawatan Tubuh', 'Perawatan-Tubuh', NULL, NULL),
-(2, 2, 'Kosmetik', 'Kosmetik', NULL, NULL),
-(3, 9, 'Kelistrikan', 'Kelistrikan', '', NULL),
-(4, 9, 'Peralatan Listrik', 'Peralatan-Listrik', '', NULL),
-(6, 9, 'Elektronik Ruangan', 'Elektronik-Ruangan', '', NULL),
-(7, 14, 'Peralatan Masak', 'Peralatan-Masak', NULL, NULL),
-(8, 14, 'Dekorasi', 'Dekorasi', NULL, NULL),
-(9, 14, 'Furniture', 'furniture', NULL, NULL),
-(10, 14, 'Alat Berkebun', 'Alat-Berkebun', NULL, NULL),
-(11, 13, 'Halal', 'Halal', NULL, NULL),
-(12, 13, 'Herbal', 'Herbal', NULL, NULL),
-(13, 13, 'Makanan Dan Minuman Lainnya', 'Makanan-Dan-Minuman-Lainnya', NULL, NULL),
-(14, 6, 'Accessories', 'accessories', NULL, NULL),
-(15, 6, 'Pakaian Atas', 'Pakaian-Atas', NULL, NULL),
-(16, 6, 'Pakaian Bawah', 'Pakaian-Bawah', NULL, NULL),
-(17, 10, 'Car Electronics', 'car-electronics', NULL, NULL),
-(18, 10, 'Office Electronics', 'office-electronics', NULL, NULL),
-(19, 12, 'Aksesoris', 'Aksesoris', NULL, NULL),
-(20, 12, 'Dekorasi Rumah', 'Dekorasi-Rumah', NULL, NULL),
-(21, 1, 'Gelang Tangan', 'Gelang-Tangan', NULL, NULL),
-(22, 1, 'Perhiasan Dan Aksesoris Lainnya', 'Perhiasan-Dan-Aksesoris-Lainnya', NULL, NULL),
-(23, 1, 'Anting', 'Anting', NULL, NULL),
-(24, 9, 'Elektronik Dan Perangkat Lainnya', 'Elektronik-Dan-Perangkat-Lainnya', '', NULL),
-(25, 2, 'Perawatan Wajah', 'Perawatan-Wajah', NULL, NULL),
-(26, 2, 'Perawatan Dan Kecantikan Lainnya', 'Perawatan-Dan-Kecantikan-Lainnya', NULL, NULL),
-(27, 17, 'Perikanan Air Tawar', 'Perikanan-Air-Tawar', NULL, NULL),
-(28, 17, 'Perikanan Air Laut', 'Perikanan-Air-Laut', NULL, NULL),
-(29, 17, 'Pakan Ikan', 'Pakan-Ikan', NULL, NULL),
-(30, 17, 'Perikanan lainnya', 'Perikanan-lainnya', NULL, NULL),
-(31, 16, 'Pertanian Dan Rempah Lainnya', 'Pertanian-Dan-Rempah-Lainnya', NULL, NULL),
-(32, 2, 'Buah Buahan', 'Buah-Buahan', NULL, NULL),
-(33, 16, 'Pupuk Tanaman', 'Pupuk Tanaman', NULL, NULL),
-(34, 16, 'Buah Buahan', 'Buah-Buahan', NULL, NULL),
-(35, 12, 'Budaya Dan Kreatif Lainnya', 'Budaya-Dan-Kreatif-Lainnya', NULL, NULL),
-(36, 6, 'Fashion Dan Busana Lainnya', 'Fashion-Dan-Busana-Lainnya', NULL, NULL),
-(37, 14, 'Kebutuhan Rumah Tangga Lainnya', 'Kebutuhan-Rumah-Tangga-Lainnya', NULL, NULL),
-(38, 10, 'Tas,Koper,Perjalanan Lainnya', 'Tas-,-Koper-,-Perjalanan-Lainnya', NULL, NULL);
+(1, 2, 'Alat Kecantikan', 'Alat Kecantikan', NULL, NULL),
+(2, 2, 'Perawatan Tubuh', 'Perawatan Tubuh', NULL, NULL),
+(3, 1, 'Fashion', 'Fashion', '', NULL),
+(4, 1, 'Dekorasi Ruangan', 'Dekorasi Ruangan', '', NULL),
+(6, 1, 'Rotan', 'Rotan', '', NULL),
+(7, 14, 'Biji-Bijian', 'Biji-Bijian', NULL, NULL),
+(8, 14, 'Buah-Buahan', 'Buah-Buahan', NULL, NULL),
+(9, 14, 'Sayuran', 'Sayuran', NULL, NULL),
+(10, 14, 'Pertanian & Rempah Lainnya', 'Pertanian & Rempah Lainnya', NULL, NULL),
+(11, 2, 'Kosmetik & Perawatan Wajah', 'Kosmetik & Perawatan Wajah', NULL, NULL),
+(12, 2, 'Perawatan & Kecantikan Lainnya', 'Perawatan & Kecantikan Lainnya', NULL, NULL),
+(13, 12, 'Ikan Hias', 'Ikan Hias', NULL, NULL),
+(14, 6, 'Halal', 'Halal', NULL, NULL),
+(15, 6, 'Herbal', 'Herbal', NULL, NULL),
+(16, 6, 'Bahan Pokok', 'Bahan Pokok', NULL, NULL),
+(17, 12, 'Pakan Ikan', 'Pakan Ikan', NULL, NULL),
+(18, 12, 'Perikanan Lainnya', 'Perikanan Lainnya', NULL, NULL),
+(19, 12, 'Ikan Air Laut', 'Ikan Air Laut', NULL, NULL),
+(20, 12, 'Ikan Air Tawar', 'Ikan Air Tawar', NULL, NULL),
+(21, 9, 'Peralatan Listrik Kecil', 'Peralatan Listrik Kecil', NULL, NULL),
+(22, 9, 'Peralatan Listrik Besar', 'Peralatan Listrik Besar', NULL, NULL),
+(23, 9, 'Elektronik Lainnya', 'Elektronik Lainnya', NULL, NULL),
+(24, 1, 'Budaya & Kreatif Lainnya', 'Budaya & Kreatif Lainnya', '', NULL);
 
 -- --------------------------------------------------------
 
@@ -2342,13 +2350,6 @@ CREATE TABLE `rb_penjualan_temp` (
   `waktu_order` datetime NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `rb_penjualan_temp`
---
-
-INSERT INTO `rb_penjualan_temp` (`id_penjualan_detail`, `session`, `id_produk`, `jumlah`, `diskon`, `harga_jual`, `satuan`, `id_kupon`, `keterangan_order`, `waktu_order`) VALUES
-(19, '20220610102938', 17, 2, 0, 6500, 'pcs', NULL, '||variasi101|Warna:Pink; variasi211|Ukuran:Menengah', '2022-06-10 10:29:38');
-
 -- --------------------------------------------------------
 
 --
@@ -2421,7 +2422,7 @@ INSERT INTO `rb_produk` (`id_produk`, `id_produk_perusahaan`, `id_kategori_produ
 (11, 0, 6, 0, 1, 'Rompi Kurta Hoodie Zip Mentantarei YU-234', 'rompi-kurta-hoodie-zip-mentantarei-yu234', 'pcs', 7900, 0, 8900, '250', 'gamis4.jpg', '1. Unrestrained and portable active stereo speaker\r\n2. Free from the confines of wires and chords\r\n3. 20 hours of portable capabilities\r\n4. Double-ended Coil Cord with 3.5mm Stereo Plugs Included\r\n5. 3/4? Dome Tweeters: 2X and 4? Woofer: 1X', '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque condimentum mattis. Suspendisse potenti. Proin vitae elementum nisi. Aliquam eu pretium risus. Nam varius efficitur consectetur. Aenean vestibulum felis sed mollis faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin venenatis est sit amet eleifend vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id nunc eu odio ultrices pulvinar non feugiat felis. Duis consequat urna sapien, porta gravida diam venenatis at. Duis at ornare enim, ac accumsan eros. Sed in finibus metus. Etiam blandit tristique orci, sit amet congue dui facilisis id. Donec fermentum diam at orci viverra placerat. Sed nunc lorem, cursus nec vestibulum hendrerit, tempus et libero.</p>\r\n\r\n<p>Donec consequat lacinia fringilla. Proin dapibus justo at elit iaculis, eu rutrum velit dapibus. Phasellus nec augue vel nisl sagittis malesuada vel vel orci. In in euismod massa. Praesent vel blandit arcu. Maecenas eleifend dui in est rhoncus, mattis sollicitudin augue semper. Donec a lectus rhoncus, ornare nunc rutrum, egestas arcu. Aenean dapibus urna non nisl dignissim volutpat.</p>', '1', 'Y', 'jeans,kemeja,kaos,pria', 43, 1, '2017-05-30 10:03:47'),
 (21, 0, 1, 0, 3, 'Ultrabook Hackintosh Acer - I5 Haswell - 8 Gb - SSD', 'ultrabook-hackintosh-acer--i5-haswell--8-gb--ssd', 'Unit', 1250, 1300, 1650, '1200', 'a1.jpg', '1. Unrestrained and portable active stereo speaker\r\n2. Free from the confines of wires and chords\r\n3. 20 hours of portable capabilities\r\n4. Double-ended Coil Cord with 3.5mm Stereo Plugs Included\r\n5. 3/4? Dome Tweeters: 2X and 4? Woofer: 1X', '<p>Untuk diperhatikan : - Untuk Saat Ini Bless Hackintosh Tidak Melayani COD/Datang Ketempat, murni hanya melayani transaksi Online dengan fasilitas pengiriman spt yang ditetapkan</p>\r\n\r\n<p>Budayakan membaca Iklan sampai beres. Mohon jangan tanyakan lagi apa yang sudah dijelaskan di Lapak.</p>\r\n\r\n<p>Barang bergaransi 7x24 jam terhitung sejak agan menerima Barang. Dengan catatan, tidak merusak segel yang ada. Retur tidak dilayani apabila SEGEL RUSAK.</p>', '3', 'Y', 'jeans,kemeja,kaos,pria', 50, 1, '2019-03-23 19:39:53'),
 (14, 0, 6, 0, 2, 'Koku Black Cotton Sesnsation Gamis TY-4312', 'koku-black-cotton-sesnsation-gamis-ty4312', 'pcs', 9000, 0, 10000, '310', 'gamis2.jpg', '1. Unrestrained and portable active stereo speaker\r\n2. Free from the confines of wires and chords\r\n3. 20 hours of portable capabilities\r\n4. Double-ended Coil Cord with 3.5mm Stereo Plugs Included\r\n5. 3/4? Dome Tweeters: 2X and 4? Woofer: 1X', '<p>Instan ZIFA, pashmina instan dengan bahan legendaris Diamond Lava ORIGINAL by Hijab Wanita Cantik, lentur dan nyaman bangeett! Ada ruffle cantik dan manis. Layernya panjang bisa dikreasi suka2, dijamin makin percaya diri ! Yuk belanja sekarang ! Nyeseel kalo cuma punya satu</p>', '2', 'Y', 'jeans,kemeja,kaos,pria', 74, 1, '2018-09-11 10:20:24'),
-(17, 13, 2, 0, 2, 'Segiempat Rebya  - RYB6.7 Pink Clover', 'segiempat-rebya---ryb67-pink-clover-20200504202457', 'pcs', 5500, 5700, 6500, '300', 'AD_19_20_Misty_Grey_grande.jpg', '1. Unrestrained and portable active stereo speaker\r\n2. Free from the confines of wires and chords\r\n3. 20 hours of portable capabilities\r\n4. Double-ended Coil Cord with 3.5mm Stereo Plugs Included\r\n5. 3/4? Dome Tweeters: 2X and 4? Woofer: 1X', '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque condimentum mattis. Suspendisse potenti. Proin vitae elementum nisi. Aliquam eu pretium risus. Nam varius efficitur consectetur. Aenean vestibulum felis sed mollis faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin venenatis est sit amet eleifend vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id nunc eu odio ultrices pulvinar non feugiat felis. Duis consequat urna sapien, porta gravida diam venenatis at. Duis at ornare enim, ac accumsan eros. Sed in finibus metus. Etiam blandit tristique orci, sit amet congue dui facilisis id. Donec fermentum diam at orci viverra placerat. Sed nunc lorem, cursus nec vestibulum hendrerit, tempus et libero.</p>\r\n\r\n<p>Donec consequat lacinia fringilla. Proin dapibus justo at elit iaculis, eu rutrum velit dapibus. Phasellus nec augue vel nisl sagittis malesuada vel vel orci. In in euismod massa. Praesent vel blandit arcu. Maecenas eleifend dui in est rhoncus, mattis sollicitudin augue semper. Donec a lectus rhoncus, ornare nunc rutrum, egestas arcu. Aenean dapibus urna non nisl dignissim volutpat.</p>', '2', 'Y', 'muslimah,kaos,wanita', 16, 1, '2019-03-21 08:01:06'),
+(17, 13, 2, 0, 2, 'Segiempat Rebya  - RYB6.7 Pink Clover', 'segiempat-rebya---ryb67-pink-clover-20200504202457', 'pcs', 5500, 5700, 6500, '300', 'AD_19_20_Misty_Grey_grande.jpg', '1. Unrestrained and portable active stereo speaker\r\n2. Free from the confines of wires and chords\r\n3. 20 hours of portable capabilities\r\n4. Double-ended Coil Cord with 3.5mm Stereo Plugs Included\r\n5. 3/4? Dome Tweeters: 2X and 4? Woofer: 1X', '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque condimentum mattis. Suspendisse potenti. Proin vitae elementum nisi. Aliquam eu pretium risus. Nam varius efficitur consectetur. Aenean vestibulum felis sed mollis faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin venenatis est sit amet eleifend vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id nunc eu odio ultrices pulvinar non feugiat felis. Duis consequat urna sapien, porta gravida diam venenatis at. Duis at ornare enim, ac accumsan eros. Sed in finibus metus. Etiam blandit tristique orci, sit amet congue dui facilisis id. Donec fermentum diam at orci viverra placerat. Sed nunc lorem, cursus nec vestibulum hendrerit, tempus et libero.</p>\r\n\r\n<p>Donec consequat lacinia fringilla. Proin dapibus justo at elit iaculis, eu rutrum velit dapibus. Phasellus nec augue vel nisl sagittis malesuada vel vel orci. In in euismod massa. Praesent vel blandit arcu. Maecenas eleifend dui in est rhoncus, mattis sollicitudin augue semper. Donec a lectus rhoncus, ornare nunc rutrum, egestas arcu. Aenean dapibus urna non nisl dignissim volutpat.</p>', '2', 'Y', 'muslimah,kaos,wanita', 14, 1, '2019-03-21 08:01:06'),
 (19, 18, 10, 0, 2, 'Consina Expert Series Lunara Biru Gelap', 'consina-expert-series-lunara-biru-gelap-20200504202457', 'Unit', 7000, 7200, 7590, '500', 'tas.jpg', '1. Unrestrained and portable active stereo speaker\r\n2. Free from the confines of wires and chords\r\n3. 20 hours of portable capabilities\r\n4. Double-ended Coil Cord with 3.5mm Stereo Plugs Included\r\n5. 3/4? Dome Tweeters: 2X and 4? Woofer: 1X', '<h2>Produk Lokal, Rasa Internasional</h2>\r\n\r\n<p>Consina merupakan salah satu produk lokal yang lahir pada tahun 1994. Bagi Anda yang memiliki hobi mendaki gunung dan berkemah, tentunya merk Consina sudah melekat di telinga Anda. Semakin berkembangnya perusahaan ini, peminatnya semakin banyak. Produk-produk dari consina memiliki kualitas yang sangat bersaing karena dibuat dengan material-material kelas satu. Tidak hanya itu, fungsi dan desainnya tidak kalah dengan merk-merk dari luar negeri. </p>\r\n\r\n<h3>Menampung Keseharian Anda Sehari-hari</h3>\r\n\r\n<p>Kali ini consina mengeluarkan tas ransel dengan ukuran yang besar yang mampu menampung kebutuhan berpetualang Anda. Tidak hanya itu, tas ransel Consina Lunara hadir dengan dimensi ukuran 30 x 25 x 60 sehingga Anda mampu menampung barang bawaan hingga 20 sampai 40 liter. Walaupun tas ini diperuntukkan untuk kebutuhan bertualang, Anda dapat menggunakan tas ini untuk kegiatan sehari-hari Anda.</p>', '2', 'Y', 'muslimah,kaos,wanita', 15, 1, '2019-03-21 11:52:49'),
 (20, 13, 2, 1, 1, 'Super Segiempat Rebya  - RYB6.7 Pink Clover', 'super-segiempat-rebya---ryb67-pink-clover-092715', 'pcs', 5500, 5700, 6500, '300', 'AD_19_20_Misty_Grey_grande.jpg', '1. Unrestrained and portable active stereo speaker\r\n2. Free from the confines of wires and chords\r\n3. 20 hours of portable capabilities\r\n4. Double-ended Coil Cord with 3.5mm Stereo Plugs Included\r\n5. 3/4? Dome Tweeters: 2X and 4? Woofer: 1X', '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque condimentum mattis. Suspendisse potenti. Proin vitae elementum nisi. Aliquam eu pretium risus. Nam varius efficitur consectetur. Aenean vestibulum felis sed mollis faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin venenatis est sit amet eleifend vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id nunc eu odio ultrices pulvinar non feugiat felis. Duis consequat urna sapien, porta gravida diam venenatis at. Duis at ornare enim, ac accumsan eros. Sed in finibus metus. Etiam blandit tristique orci, sit amet congue dui facilisis id. Donec fermentum diam at orci viverra placerat. Sed nunc lorem, cursus nec vestibulum hendrerit, tempus et libero.</p>\r\n\r\n<p>Donec consequat lacinia fringilla. Proin dapibus justo at elit iaculis, eu rutrum velit dapibus. Phasellus nec augue vel nisl sagittis malesuada vel vel orci. In in euismod massa. Praesent vel blandit arcu. Maecenas eleifend dui in est rhoncus, mattis sollicitudin augue semper. Donec a lectus rhoncus, ornare nunc rutrum, egestas arcu. Aenean dapibus urna non nisl dignissim volutpat.</p>', '1', 'Y', 'muslimah,kaos,wanita', 23, 1, '2019-03-22 06:37:29'),
 (22, 0, 1, 0, 3, 'APPLE MacBook Pro - Space Gray - Intel Core i5 2.3GHz', 'apple-macbook-pro--space-gray--intel-core-i5-23ghz-121934', 'Unit', 1950, 2000, 2250, '1200', 'a2.jpg', '1. Unrestrained and portable active stereo speaker\r\n2. Free from the confines of wires and chords\r\n3. 20 hours of portable capabilities\r\n4. Double-ended Coil Cord with 3.5mm Stereo Plugs Included\r\n5. 3/4? Dome Tweeters: 2X and 4? Woofer: 1X', '<h3>Spesifikasi Lebih Tinggi untuk Pacu Produktivitas</h3>\r\n\r\n<p>Apple MacBook Pro edisi terbaru hadir dengan dua pilihan ukuran layar yakni 13 Inch dan 15 Inch. Apple MacBook Pro memiliki fitur terbaru yang memudahkan Anda bekerja dengan mengganti jejeran tombol Function (F) dengan panel sentuh. Fitur bernama Touch Bar ini dapat mengganti tampilan menu di panel sentuh sesuai aplikasi yang Anda gunakan. Namun, jika Anda masih menginginkan versi MacBook tanpa Touch Bar, Apple juga menyediakan varian MacBook Pro 13 Inch tanpa Touch Bar. Jadi Anda masih menggunakan Keyboard dengan tombol F berbentuk fisik seperti Layout Keyboard Laptop konvensional. MacBook Pro tanpa Touch Bar membawa peningkatan performa dibanding pendahulunya. Hadir sebagai otak utama adalah Processor Dual-Core besutan Intel Core i5 berkecepatan 2.3 GHz yang terintegrasi dengan pengolah grafis Intel Iris Graphics 640. Dua buah Port Thunderbolt 3 dengan antarmuka USB-C bisa digunakan untuk transfer data, mengisi baterai, dan Output Display.</p>\r\n\r\n<h3>Dua Pilihan Ukuran MacBook Pro</h3>\r\n\r\n<p>2 model MacBook Pro layar 13 dan 15 Inch, dengan dan tanpa Touch Bar.</p>\r\n', '3', 'Y', 'hardware,laptop,elektronik', 65, 1, '2019-03-23 20:24:24'),
@@ -3052,8 +3053,8 @@ CREATE TABLE `slide` (
 --
 
 INSERT INTO `slide` (`id_slide`, `keterangan`, `gambar`, `waktu`) VALUES
-(1, 'Images Slider Produk 1', 'slider1.png', '2016-05-13 08:09:18'),
-(2, 'Images Slider Produk 2', 'slider2.png', '2016-05-13 08:10:18');
+(1, 'Images Slider Produk 1', 'slide2.png', '2016-05-13 08:09:18'),
+(2, 'Images Slider Produk 2', 'slide1.png', '2016-05-13 08:10:18');
 
 -- --------------------------------------------------------
 
@@ -6437,9 +6438,7 @@ INSERT INTO `statistik` (`ip`, `tanggal`, `hits`, `online`) VALUES
 ('182.1.133.74', '2021-04-22', 9, '1619036332'),
 ('162.210.193.226', '2021-04-22', 4, '1619038212'),
 ('182.1.134.46', '2021-04-22', 7, '1619040161'),
-('::1', '2021-06-28', 46, '1624882666'),
-('::1', '2022-06-09', 47, '1654793962'),
-('::1', '2022-06-10', 31, '1654833755');
+('::1', '2021-06-28', 46, '1624882666');
 
 -- --------------------------------------------------------
 
@@ -15058,13 +15057,13 @@ ALTER TABLE `rb_jenis_kendaraan`
 -- AUTO_INCREMENT for table `rb_kategori_produk`
 --
 ALTER TABLE `rb_kategori_produk`
-  MODIFY `id_kategori_produk` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `id_kategori_produk` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT for table `rb_kategori_produk_sub`
 --
 ALTER TABLE `rb_kategori_produk_sub`
-  MODIFY `id_kategori_produk_sub` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
+  MODIFY `id_kategori_produk_sub` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- AUTO_INCREMENT for table `rb_keterangan`
@@ -15190,7 +15189,7 @@ ALTER TABLE `rb_penjualan_otomatis`
 -- AUTO_INCREMENT for table `rb_penjualan_temp`
 --
 ALTER TABLE `rb_penjualan_temp`
-  MODIFY `id_penjualan_detail` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `id_penjualan_detail` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
 -- AUTO_INCREMENT for table `rb_ppob_margin`
