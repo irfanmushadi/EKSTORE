@@ -136,58 +136,7 @@
               
             </div>
 
-            <div class='col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12'><br>
-              <div class='form-group row' style='margin-bottom:5px'>
-              <label class='col-sm-3 col-form-label' style='margin-bottom:1px'>Merek</b></label>
-                <div class='col-sm-9'>
-                <div class='checkbox-scroll'>";
-                foreach ($tag as $tag){
-                    echo "<span style='display:block;'><input style='height:1em' type=checkbox value='$tag[tag_seo]' name=tag[]> $tag[nama_tag] &nbsp; &nbsp; &nbsp; </span>";
-                }
-                echo "</div>
-                </div>
-              </div>  
-
-              <div class='form-group row' style='margin-bottom:5px'>
-              <label class='col-sm-3 col-form-label' style='margin-bottom:1px'>Variasi 1</b></label>
-                <div class='col-sm-9'>
-                <input type='text' class='form-control form-mini' name='variasi1' style='font-weight:bold; color:red' placeholder='- - - - - - - -'>
-                <div id='content'>
-                  <div id='div_1'><input placeholder='Input 1 .........' type='text' class='form-control form-mini' id='warna_1' name='warna[]'></div>
-                  <div id='div_2'><input placeholder='Input 2 .........' type='text' class='form-control form-mini' id='warna_2' name='warna[]'></div>
-                </div>
-                    <a href=\"javascript:void(0);\" onclick=\"addElement();\"><i class='icon-plus-circle' style='color:green; font-weight:900'></i> Tambah</a>
-                    <a href=\"javascript:void(0);\" onclick=\"removeElement();\"><i class='icon-cross-circle' style='color:red; font-weight:900'></i> Hapus</a>
-                </div>
-              </div>    
-              <br>
-              <div class='form-group row' style='margin-bottom:5px'>
-              <label class='col-sm-3 col-form-label' style='margin-bottom:1px'>Variasi 2</b></label>
-                <div class='col-sm-9'>
-                <input type='text' class='form-control form-mini' name='variasi2' style='font-weight:bold; color:red' placeholder='- - - - - - - -'>
-                <div id='content1'>
-                  <div id='div_1'><input placeholder='Input 1 .........' type='text' class='form-control form-mini' id='ukuran_1' name='ukuran[]'></div>
-                  <div id='div_2'><input placeholder='Input 2 .........' type='text' class='form-control form-mini' id='ukuran_2' name='ukuran[]'></div>
-                </div>
-                    <a href=\"javascript:void(0);\" onclick=\"addElement1();\"><i class='icon-plus-circle' style='color:green; font-weight:900'></i> Tambah</a>
-                    <a href=\"javascript:void(0);\" onclick=\"removeElement1();\"><i class='icon-cross-circle' style='color:red; font-weight:900'></i> Hapus</a>
-                </div>
-              </div>    
-              <br>
-              <div class='form-group row' style='margin-bottom:5px'>
-              <label class='col-sm-3 col-form-label' style='margin-bottom:1px'>Lainnya</b></label>
-                <div class='col-sm-9'>
-                <input type='text' class='form-control form-mini' name='variasi3' style='font-weight:bold; color:red' placeholder='- - - - - - - -'>
-                <div id='content2'>
-                  <div id='div_1'><input placeholder='Input 1 .........' type='text' class='form-control form-mini' id='lainnya_1' name='lainnya[]'></div>
-                  <div id='div_2'><input placeholder='Input 2 .........' type='text' class='form-control form-mini' id='lainnya_2' name='lainnya[]'></div>
-                </div>
-                    <a href=\"javascript:void(0);\" onclick=\"addElement2();\"><i class='icon-plus-circle' style='color:green; font-weight:900'></i> Tambah</a>
-                    <a href=\"javascript:void(0);\" onclick=\"removeElement2();\"><i class='icon-cross-circle' style='color:red; font-weight:900'></i> Hapus</a>
-                </div>
-              </div>   
-
-            </div>
+           
             <div class='col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12'>
             <div class='box-footer'>
                 <button type='submit' name='submit' class='ps-btn margin-btn spinnerButton'>Tambahkan</button>
