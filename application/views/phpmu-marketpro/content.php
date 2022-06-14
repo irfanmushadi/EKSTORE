@@ -570,7 +570,7 @@
     <div class="ps-product-list ps-new-arrivals">
         <div class="ps-container">
             <div class="ps-section__header">
-                <h3>Produk Baru Terpopuler</h3>
+                <h3>Produk Terpopuler</h3>
                 <ul class="ps-section__links d-none d-sm-block">
                     <?php 
                         $kategori = $this->db->query("SELECT * FROM rb_kategori_produk ORDER BY RAND() LIMIT 3");
